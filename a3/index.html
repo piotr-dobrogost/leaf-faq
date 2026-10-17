@@ -1,0 +1,1356 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jak przywrócić zdalne sterowanie (OpenCARWINGS, OVMS)? · Nissan LEAF Polska – FAQ</title>
+  <meta name="description" content="**OpenCARWINGS** to społecznościowy następca CARWINGS: pokazuje stan baterii, pozwala zdalnie włączyć ładowanie i nagrzewanie, pokazuje pozycję auta i historię. …">
+  
+  <link rel="stylesheet" href="/css/main.min.e1551314be157704e4ca0ba6f3614235e3793cfeecc3db3a75cf2f2ef0bd751a.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b6e8a'/%3E%3Cpath d='M6.5 25.5C5.6 14.2 12.9 6.2 26 5.5c.8 12.9-6.6 20.5-18 20z' fill='%23fff'/%3E%3Cpath d='M6.5 25.5C11 19.6 15.4 15.3 21.5 11' fill='none' stroke='%230b6e8a' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E">
+  <script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body class="faq-page">
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="5 4.5 22 22" width="20" height="20"><path d="M6.5 25.5C5.6 14.2 12.9 6.2 26 5.5c.8 12.9-6.6 20.5-18 20z" fill="currentColor"/><path d="M6.5 25.5C11 19.6 15.4 15.3 21.5 11" fill="none" style="stroke: var(--accent)" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+        <span class="brand-text">Nissan LEAF Polska <span class="brand-sub">FAQ</span></span>
+      </a>
+      <nav class="top-nav" aria-label="Nawigacja główna">
+  <a href="/#pytania">Pytania</a>
+  <a href="/kategorie/">Kategorie</a>
+  <a href="/ceny/">Ceny</a>
+  <a href="/o-faq/">O FAQ</a>
+  <button class="theme-toggle" type="button" aria-label="Przełącz motyw jasny/ciemny" title="Motyw jasny/ciemny"><svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</nav>
+
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    
+
+
+<nav class="crumbs" aria-label="Okruszki">
+  <a href="/">FAQ</a>
+  <span aria-hidden="true">›</span> <a href="/kategorie/aplikacje-i-elektronika/">Aplikacje i elektronika</a>
+</nav>
+<div class="faq-layout">
+<article class="faq">
+  <header class="faq-head">
+    <p class="faq-meta">
+      <span class="qid qid-lg" title="Identyfikator pytania">a3</span>
+      
+      <button class="copy-link" type="button" data-short="a3" title="Kopiuj link do pytania" aria-label="Kopiuj link do pytania"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+      <span class="muted">na podstawie 58 wątków</span>
+    </p>
+    <h1>Jak przywrócić zdalne sterowanie (OpenCARWINGS, OVMS)?</h1>
+    
+    <details class="variants">
+      <summary>Jak to pytanie padało w grupie (18)</summary>
+      <ul><li>„Czy da się przywrócić funkcje online w Leafie 1?”</li><li>„ZE1 2019 – czy da się reaktywować Nissan Connect?”</li><li>„Karta Hologram – CARWINGS nie łączy, co sprawdzić?”</li><li>„Gdzie przelutować slot SIM w module TCU?”</li><li>„OpenCARWINGS przestał działać – co robić?”</li><li>„Po wyłączeniu NissanConnect EV: OpenCARWINGS, OVMS czy Lilygo?”</li><li>„Czy OVMS włączy klimę w aucie niepodłączonym do ładowania?”</li><li>„Hologram Global 3 nie działa w Leafie – dlaczego?”</li><li>„Jak podłączyć Leafa do Home Assistant po wyłączeniu NissanConnect?”</li><li>„Ile kosztuje OpenCARWINGS z kartą Hologram?”</li><li>„Czy OVMS włączy zdalne grzanie w Leafie 2016–2017?”</li><li>„OpenCARWINGS przestał się łączyć”</li><li>„Jaki adapter OBD do konfiguracji karty SIM w TCU?”</li><li>„Jaka karta SIM do OpenCARWINGS – Hologram czy polski operator?”</li><li>„Jak sprawdzić, czy mój moduł TCU obsłuży OpenCARWINGS?”</li><li>„Ile kosztuje OVMS i jaką kartę SIM do niego dać?”</li><li>„OVMS nie pokazuje stanu baterii – co sprawdzić?”</li><li>„Czy OVMS działa w Leafie II?”</li></ul>
+    </details>
+    
+  </header>
+
+  
+  <aside class="tldr" aria-label="Odpowiedź w skrócie">
+    <h2 id="w-skrocie">W skrócie <a class="heading-anchor" href="#w-skrocie" aria-label="Link do sekcji: W skrócie">#</a><button type="button" class="copy-anchor" data-anchor="w-skrocie" title="Kopiuj link do sekcji" aria-label="Kopiuj link do sekcji: W skrócie"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+</h2>
+    <strong>OpenCARWINGS</strong> to społecznościowy następca CARWINGS: pokazuje stan baterii, pozwala zdalnie włączyć ładowanie i nagrzewanie, pokazuje pozycję auta i historię. Leafy z lat ok. 2012–2015 wystarczy podłączyć z nową kartą SIM (np. Hologram „Global 1” albo polską kartą z SMS-ami) i konfiguracją w serwisie. Nowsze Leafy (AZE0 30 kWh, ZE1) i e-NV200 potrzebują przerobionego modułu łączności (TCU). Gotowy moduł z kartą SIM kosztuje ok. 400 zł plus abonament ok. 3 euro miesięcznie. Od wyłączenia NissanConnect EV (30.03.2026) wielu właścicieli wybiera <strong>OVMS</strong> (ok. 215–230 GBP + cło). Działa praktycznie w każdym roczniku i pozwala włączyć klimatyzację bez podłączonego kabla (w rocznikach 2016–2017 zgłaszano jednak problemy ze zdalnym grzaniem).
+  </aside>
+  
+
+  <div class="gen-filter" role="group" aria-label="Pokaż treść dla generacji Leafa" data-qgen="" hidden>
+    <span class="gen-filter-label">Pokaż treść dla:</span>
+    <button type="button" data-gen="all" aria-pressed="true">wszystkich</button>
+    <button type="button" data-gen="1" aria-pressed="false">Leaf I</button>
+    <button type="button" data-gen="2" aria-pressed="false">Leaf II</button>
+    <button type="button" data-gen="3" aria-pressed="false">Leaf III</button>
+    <p class="gen-filter-note" aria-live="polite"></p>
+  </div>
+
+  <div class="answer">
+    <h2 id="co-daje-opencarwings">Co daje OpenCARWINGS <a class="heading-anchor" href="#co-daje-opencarwings" aria-label="Link do sekcji: Co daje OpenCARWINGS">#</a><button type="button" class="copy-anchor" data-anchor="co-daje-opencarwings" title="Kopiuj link do sekcji" aria-label="Kopiuj link do sekcji: Co daje OpenCARWINGS"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+</h2>
+<p>Stan naładowania w telefonie, zdalne włączenie ładowania i klimatyzacji (np. odmrażanie zimą), pozycję auta oraz historię tras i ładowań <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4016492731986313&reply_comment_id=4016760751959511" title="naładowania w telefonie, możliwość wystartowania ładowania lub klimatyzacji z telefonu, pozycja auta, historia tras i ładowań itp" rel="noopener nofollow" target="_blank">1</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4049776971991222&reply_comment_id=4050076408627945" title="podstawa to zdalne rozmrażanie Trochę statystyk trochę bajerów Są dwa dobre filmiki na ten temat naszego kolegi grupowego polecam obejrzeć…" rel="noopener nofollow" target="_blank">2</a>]</sup>. Część użytkowników uważa, że działa lepiej niż oryginalna aplikacja Nissana <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4046922482276671/?comment_id=4046923898943196&reply_comment_id=4047189075583345" title="Mam od 2 tygodni. Działa lepiej niż wcześniej apka nissana." rel="noopener nofollow" target="_blank">3</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4049776971991222&reply_comment_id=4049852815316971" title="12-15 działało już wcześniej i prościej Mam uruchomione na 13r apka działa lepiej szybciej niż oryginalna nissanowska" rel="noopener nofollow" target="_blank">4</a>]</sup>. Jest dostępny przez stronę i aplikację na Androida (plik z GitHuba: włączanie i wyłączanie klimatyzacji, start ładowania – bez możliwości przerwania) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016766118625641&reply_comment_id=4016774595291460" title="na android jest apka" rel="noopener nofollow" target="_blank">5</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016805098621743&reply_comment_id=4016806425288277" title="trzeba ją ubijać poki co systemowo. Kilka bugów w niej jest. Ja korzystam nadal przez WWW, błędy zgłaszam na bieżąco do autora." rel="noopener nofollow" target="_blank">6</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/" title="Chciałby się podzielić aplikacja do opencarwings na androida, która dostałem do [osoba] działa jest fajna i funkcjonalna - nie trzeba już…" rel="noopener nofollow" target="_blank">7</a>]</sup>. Jest też aplikacja na iOS w App Store, a stronę można dodać jako skrót na ekranie głównym telefonu <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851084261860495&reply_comment_id=3851093138526274" title="na jabłuszko to tak apps.apple.com/…" rel="noopener nofollow" target="_blank">8</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851072395195015" title="Ja może powiem jaką opcję którą u siebie zrobiłem. Działa to fajnie w zasadzie jakbym miał aplikacje na androida. Wchodzimy na telefonie na…" rel="noopener nofollow" target="_blank">9</a>]</sup>. Działa tylko z Leafem i bliźniaczym e-NV200; do innych aut zostaje np. OVMS <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3852836721685249&reply_comment_id=3852837195018535" title="tylko liść" rel="noopener nofollow" target="_blank">10</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3852836721685249&reply_comment_id=3960333677602219" title="liść i bliźniaczy env200 a to kony to ovms lub hyundajowski bluelink" rel="noopener nofollow" target="_blank">11</a>]</sup>. Członek grupy napisał też integrację z Home Assistantem (HACS: ha_opencarwings) z obsługą klimatyzacji, stanu baterii i lokalizacji <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3812663472369241/" title="Hej. Gdyby ktoś używał OpenCARWINGS i chciał sobie spiąć liścia z Home Assistant, to napisałem integrację dostępną w HACS github.com/… To…" rel="noopener nofollow" target="_blank">12</a>]</sup>. W Leafie 2015 zdalne grzanie bez kabla przez OpenCARWINGS kosztowało kartę za ok. 50 zł i godzinę pracy <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3882078998761021/?comment_id=3882158832086371" title="Zainstaluj sobie opencarwings i zdalnie odpalisz i ustawisz timery bez podłączonego auta do ładowarki. Koszt karty około 50zł i godzina…" rel="noopener nofollow" target="_blank">13</a>]</sup>.</p>
+<ul>
+<li>Kto nie chce wysyłać pozycji i tras na cudzy serwer, może postawić własny serwer OpenCARWINGS w domu, bo pliki są na GitHubie. Członkowie grupy zwracają uwagę, że historia tras na obcym serwerze to ryzyko dla prywatności <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3933515693617351/?comment_id=3933679693600951&reply_comment_id=3934208033548117" title="Akurat w tym przypadku można bez problemów postawić sobie swój własny serwer w domu dla OpenCarWings. Wszystkie potrzebne do tego pliki są…" rel="noopener nofollow" target="_blank">14</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3933515693617351/?comment_id=3933679693600951" title="Nie wiem czy udostępnianie pozycji, historii tras, miejsc postojów do jakichkolwiek serwerów jest bezpieczne. W przypadku wycieku danych…" rel="noopener nofollow" target="_blank">15</a>]</sup>.</li>
+</ul>
+<h2 id="leafy-ok-20122015-modul-2g3g">Leafy ok. 2012–2015 (moduł 2G/3G) <a class="heading-anchor" href="#leafy-ok-20122015-modul-2g3g" aria-label="Link do sekcji: Leafy ok. 2012–2015 (moduł 2G/3G)">#</a><button type="button" class="copy-anchor" data-anchor="leafy-ok-20122015-modul-2g3g" title="Kopiuj link do sekcji" aria-label="Kopiuj link do sekcji: Leafy ok. 2012–2015 (moduł 2G/3G)"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+</h2>
+<ul>
+<li>Wystarczy nowa karta SIM w module łączności i konfiguracja w OpenCARWINGS (opencarwings.viaaq.eu). W grupie i na YouTube są poradniki krok po kroku <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014559328846320" title="Owszem przez opencarwings - opisywane bylo wielokrotnie" rel="noopener nofollow" target="_blank">16</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014901902145396" title="Wersja obrazkowa: youtu.be/… - u mnie działa na karcie Orange, doładowałem ją za 39 zł co daje ważność karty przez rok." rel="noopener nofollow" target="_blank">17</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014559328846320&reply_comment_id=4014901982145388" title="Na youtube popełniłem tutorial krok po kroku. Kanał misiekstaszic." rel="noopener nofollow" target="_blank">18</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014855918816661&reply_comment_id=4014917752143811" title="masz kwestja który to rocznik i czy da sie kartę wymienić, ja u siebie zrobilem - leaf 2014 tu masz opencarwings.viaaq.eu/…" rel="noopener nofollow" target="_blank">19</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/" title="Wygląda na to że temat przywrócenia łączności w nowszych leafach i ENV jest już załatwiony:-) Leafy przed 09/2015 - działa zmiana na karty…" rel="noopener nofollow" target="_blank">20</a>]</sup>.</li>
+<li>Karta: Hologram albo zwykła karta polskiego operatora z SMS-ami, np. Orange za 39 zł z ważnością na rok, Virgin Mobile <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014901902145396" title="Wersja obrazkowa: youtu.be/… - u mnie działa na karcie Orange, doładowałem ją za 39 zł co daje ważność karty przez rok." rel="noopener nofollow" target="_blank">17</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016766118625641&reply_comment_id=4017044575264462" title="poza tym całe koszty karty sim to 39 zł na rok." rel="noopener nofollow" target="_blank">21</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4046922482276671/?comment_id=4046923898943196&reply_comment_id=4047190945583158" title="mobile" rel="noopener nofollow" target="_blank">22</a>]</sup>.</li>
+<li>Z Hologramem uważaj: ze starymi modułami działają karty typu „Global 1” (granatowe tło). Czarna karta „Global 3”, którą Hologram wysyła obecnie, z modułem nie współpracuje <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3909347199367534/?comment_id=3909442266024694" title="Jeśli to jest karta z czarnym, nie granatowym tłem to nie zadziała. Musisz mieć kartę w wersji Global-1." rel="noopener nofollow" target="_blank">23</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3909347199367534/?comment_id=3909442266024694&reply_comment_id=3909792122656375" title="nie zadziała bo to karta global-3. Prawdopodobnie kupiłeś bezpośrednio od holograma. Moduł telematyki leafa nie będzie współpracował z tą…" rel="noopener nofollow" target="_blank">24</a>]</sup>. Karty typu „Global 1”, a karty wysyłane obecnie (2026 r.) w Leafach 2011–2017 już nie. Członkowie grupy robią zamówienia grupowe starszych kart (min. ok. 20 sztuk) i odstępują nadwyżki. Przy kilku odświeżeniach dziennie karta kosztuje ok. 2 USD miesięcznie <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3935379436764310/?comment_id=3935423756759878" title="Mam kilka kart po zamówieniu grupowym jeśli potrzeba proszę o priv" rel="noopener nofollow" target="_blank">25</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3935379436764310/?comment_id=3935423756759878&reply_comment_id=3936474026654851" title="Tomasz Karski2$" rel="noopener nofollow" target="_blank">26</a>]</sup>. Dane kosztują ok. 5 zł miesięcznie <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/" title="Edit: rozdysponowane! Karty Hologram do OpenCarwings - 3 sztuki. Mam do odsprzedania trzy karty Hologram do uruchomienia Opencarwings na…" rel="noopener nofollow" target="_blank">27</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821121711523417&reply_comment_id=3821153384853583" title="zużyjesz danych. Średnio 5 zł / mc wychodzi, z podłączoną też navi, ale to zależy od pokonywanych dystansów." rel="noopener nofollow" target="_blank">28</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821303584838563&reply_comment_id=3821987758103479" title="Mam ostatnie 5 kart, po zamówieniu grupowym z wakacji. Potem będę robił listę kolejkową bo muszę zamówić minimum 20 sztuk żeby nie dopłacać…" rel="noopener nofollow" target="_blank">29</a>]</sup>.</li>
+<li><span class="gens" data-gen="1"><span class="gen gen-1">Leaf I</span></span> Wymiana karty dotyczy aut z CARWINGS z lat 2011–09/2015. Od rocznika modelowego 2016 i w Leafie II karta SIM jest wbudowana <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821140391521549" title="Uwaga, to działa tylko w autach z carwings o roczniki 2011-09/2015. Wersje od roku modelowego 2016 maja już wbudowane karty SIM, tak samo…" rel="noopener nofollow" target="_blank">30</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860533687582219/?comment_id=3860546994247555&reply_comment_id=3860659630902958" title="od 09/2015 jest inny moduł tematyki i nawigacja. Carwings nie będzie działać" rel="noopener nofollow" target="_blank">31</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891320284503559&reply_comment_id=3892389874396600" title="a jaki rok produkcji? Tylko 2011-2015 da radę." rel="noopener nofollow" target="_blank">32</a>]</sup>. Auto łączy się z serwerem przez wbudowany modem GSM, więc w telefonie nie potrzebujesz niczego poza aplikacją, ale w aucie trzeba wymienić kartę SIM <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=4018053825163537&reply_comment_id=4018054941830092" title="przez internet liść ma wbudowany moduł gsm" rel="noopener nofollow" target="_blank">33</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=4018053825163537&reply_comment_id=4018063508495902" title="no trzeba karte wymienić i trochę pokombinowac- kwestia wersji modemu" rel="noopener nofollow" target="_blank">34</a>]</sup>.</li>
+<li>Doświadczenia z lutego 2026 r.: konfiguracja krok po kroku według filmu zajęła ok. 30 minut. Karta Hologram kosztowała u członka grupy ok. 25 zł, abonament to 1 USD miesięcznie plus 0,19 USD za MB, czyli realnie ok. 6–8 zł miesięcznie. Działał timer ogrzewania oraz zdalne włączanie i wyłączanie <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3843964242572497" title="Gdyby ktoś szukał instrukcji - youtube.com/…" rel="noopener nofollow" target="_blank">35</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3843959915906263&reply_comment_id=3843965295905725" title="25zł + koszty wysyłki - najlepiej paczkomat" rel="noopener nofollow" target="_blank">36</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3843962722572649&reply_comment_id=3844063085895946" title="abonament 1$ miesięcznie +0,19$ za MB danych, z opinii użytkowników ok 6-8 zł miesięcznie Z tego co przetestowałem to działa timer…" rel="noopener nofollow" target="_blank">37</a>]</sup>. Uwaga przy pracach za schowkiem: nie uruchamiaj auta z odłączoną wtyczką poduszki powietrznej <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3843966049238983&reply_comment_id=3843968815905373" title="krok po kroku - tylko nie odpalałem bez podłączonej kostki od poduszki." rel="noopener nofollow" target="_blank">38</a>]</sup>. Według informacji z grupy Hologram od 1 lipca podnosi dziesięciokrotnie cenę danych dla kart G1, a niektórym karty przestały logować się do sieci <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3978122629156657" title="Hologram dla kart G1 od 1 lipca zmienia cennik. Koszt 1mb danych rośnie dziesięciokrotnie. Czy używackie Opencarwings z jakimiś innymi…" rel="noopener nofollow" target="_blank">39</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3978122629156657&reply_comment_id=3984413098527610" title="Nie i problem u mnie pojawił się z nadajnikami. teraz hologram (przynajmniej u mnie) nie loguje się do sieci" rel="noopener nofollow" target="_blank">40</a>]</sup>.</li>
+<li>Karta innego operatora (np. Play) też zadziała, ale trzeba ją wybudzać SMS-em <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3844077309227857&reply_comment_id=3844110032557918" title="Ja będzie działać ale trzeba wzbudzać - nie wiem jak tam się konfiguruje, podobno jakieś SMS trzeba wysłać" rel="noopener nofollow" target="_blank">41</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703296746639248&reply_comment_id=3703378539964402" title="Ładowanie sie w abonament Hologram jest bez sensu bo mozna użyć dowolnej innej karty. Ja używam Play z abonamentem 3zl" rel="noopener nofollow" target="_blank">42</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3742513982717524&reply_comment_id=3742531602715762" title="jeszcze kilka kart pisz priv. Można wstawić dowolną kartę ale każdorazowo trzeba ręcznie wysyłać SMS żeby aktywować tcu. Wszystko jest…" rel="noopener nofollow" target="_blank">43</a>]</sup>. Treść SMS-a pokazuje serwis po wybraniu połączenia „manual” <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3742513982717524&reply_comment_id=3985709055064681" title="Napisałem wyżej, wszystko jest opisane w instrukcji na stronie carwings. Jak zmienisz ustawienia połączenia na manuał to wyświetla się…" rel="noopener nofollow" target="_blank">44</a>]</sup>. Hologram jest wygodniejszy, bo serwer budzi moduł sam przez API, a karta korzysta z nadajników kilku sieci <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703296746639248&reply_comment_id=3703298996639023" title="Najważniejsza różnica to brak konieczności wysyłania ręcznie SMS żeby wzbudzić system. Dodatkowo karty telemetryczne korzystają z…" rel="noopener nofollow" target="_blank">45</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703296746639248&reply_comment_id=3703417613293828" title="Na pewno korzystanie z Hologram jest wygodniejsze, bo nie trzeba wysyłać za każdym razem SMSa i można skorzystać z odświeżania danych." rel="noopener nofollow" target="_blank">46</a>]</sup>. Inna karta IoT z API do SMS-ów to 1NCE (ok. 10 euro za 10 lat), ale wymaga konfiguracji webhooka <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703292923306297" title="Kart IoT bardzo fajne działa 1nce.com - 10eur 10lat/500mb/200sms." rel="noopener nofollow" target="_blank">47</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703292923306297&reply_comment_id=3703298976639025" title="wysyłka sms do karty przez api? tak jest help.1nce.com/… Karta działała nawet w Turcji bo mam ją w trackerku do złombolowozu" rel="noopener nofollow" target="_blank">48</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703292923306297&reply_comment_id=3703312033304386" title="manual to wysyłasz ręcznie SMS aktywujący tcu, webhook musisz mieć link który powoduje wysłanie SMS o konkretnej treści do numeru tcu.…" rel="noopener nofollow" target="_blank">49</a>]</sup>.</li>
+<li>We wrześniu 2025 r., gdy rozwiązanie dopiero się upowszechniało, Hologram liczył 1 USD za aktywację, 1 USD miesięcznie i 0,1 USD za MB, a auto zużywało ok. 0,5 MB tygodniowo <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703285956640327" title="Cena takiej karty to 30zł z odbiorem we Wrocławiu lub wysyłka 12zl paczkomat, 8zł poczta. Mam kilka kart, kupiłem więcej żeby nie płacić za…" rel="noopener nofollow" target="_blank">50</a>]</sup>. Już wtedy Hologram kończył sprzedaż kart Global-1, a karty z innych źródeł nie zawsze dawały się aktywować <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/" title="Piszę tutaj bo na grupowym czacie umknie, a to moim zdaniem mały game changer dla użytkowników Leafów z systemem Carwings. Temat już gdzieś…" rel="noopener nofollow" target="_blank">51</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3951355748500012" title="Uwaga! Hologram oficjalnie zaprzestaje sprzedaży kart Global-1. W związku z tym karty zakupione od niezależnych dystrybutorów mogą nie…" rel="noopener nofollow" target="_blank">52</a>]</sup>.</li>
+<li>Zanim zamówisz kartę, sprawdź, czy masz moduł 2G Continental (oznaczenie B lub C, jak w instrukcji OpenCARWINGS). Inny modem, np. z wbudowaną kartą, wymaga przeróbki <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3719890801646509" title="Szkoda że nigdzie nie było informacji że to rozwiązanie tylko dla wersji z modemem Continental. U mnie inny z wbudowaną kartą SIM. Więc…" rel="noopener nofollow" target="_blank">53</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3719890801646509&reply_comment_id=3719941214974801" title="jest wszystko dokładnie opisane w instrukcji instalacji i montażu na stronie OpenCARWINGS. Podeślij mi vin auta na priv, jest masz modem 3G…" rel="noopener nofollow" target="_blank">54</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3743967425905513&reply_comment_id=3743995219236067" title="wszystko jest opisane w instrukcji OpenCARWINGS. Jeśli masz auto z systemem Carwings z eu/usa to powinno działać ale polecam jednak…" rel="noopener nofollow" target="_blank">55</a>]</sup>. Leafy z USA mogą wymagać europejskiego TCU albo zmiany adresu serwera <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703635133272076&reply_comment_id=3703636746605248" title="być konieczna zmiana tcu na wersje europejską lub zmiana adresu serwera na europejski" rel="noopener nofollow" target="_blank">56</a>]</sup>.</li>
+<li>Konfiguracja ma dwa osobne etapy: ustawienia TCU (APN, serwer) przez adapter OBD i aplikację na Androida oraz aktualizację oprogramowania nawigacji przez kartę SD (osobna instrukcja navi_guide na stronie OpenCARWINGS). Dopiero po obu działa logowanie z nawigacji <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704719149830341&reply_comment_id=3715362728765983" title="czytałeś dokładnie instrukcje zmiany oprogramowania nawigacji? Osobno zmienia się dane TCU, jako drugi krok jest zabawa z kartami SD i…" rel="noopener nofollow" target="_blank">57</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704719149830341&reply_comment_id=3720422474926675" title="opencarwings.viaaq.eu/…" rel="noopener nofollow" target="_blank">58</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704739713161618&reply_comment_id=3720433234925599" title="Wiem wiem. Ale problem był po stronie samego oprogramowania TCU. Zrobiłem flash i już działa. Trochę zabawy jest z podmianami kart sd." rel="noopener nofollow" target="_blank">59</a>]</sup>. Hasło TCU ustalasz sam przy rejestracji w serwisie i potem wpisujesz to samo w nawigacji – lepiej nie zbyt krótkie <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3695237340778522/?comment_id=3695906657378257&reply_comment_id=3696835063952083" title="To jest hyba hasło używane później do konfiguracji komunikacji, podaj jakieś proste do wpisania z klawiatury dotykowj auta. Ono i tak chyba…" rel="noopener nofollow" target="_blank">60</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704719149830341&reply_comment_id=3704759573159632" title="je sam przy rejestracji. To hasło które potem wpiszesz w nawigacji" rel="noopener nofollow" target="_blank">61</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704719149830341&reply_comment_id=3715288932106696" title="Wiemy ale i tak nie łączy 😁 chyba od nowa założę konto i dam dłuższe hasło bo 1111 nie przeszło widocznie 😅" rel="noopener nofollow" target="_blank">62</a>]</sup>.</li>
+<li>Jesienią 2025 r. członkowie grupy nagrali instrukcje wideo przywracania usług krok po kroku (także druga część o nawigacji). Całość zajmuje ok. 30 minut, a koszty są niewielkie <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/" title="Wideo-instrukcja wskrzeszenia usług on-line (CarWings) dla Leafów I" rel="noopener nofollow" target="_blank">63</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3793604864275102/" title="Witam polecam obejrzeć materiał jak przywrócić zdalny dostęp do auta Pozdrawiam" rel="noopener nofollow" target="_blank">64</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3796479127321009/" title="Druga część myślę że warto zobaczyć. Pozdrawiam." rel="noopener nofollow" target="_blank">65</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3796479127321009/?comment_id=3797434473892141" title="Polecam, 30 min roboty, koszty śmieszne." rel="noopener nofollow" target="_blank">66</a>]</sup>. Film i opis są też na stronie opencarwings.viaaq.eu. Schowek łatwo się wyjmuje, co daje dostęp do modułu TCU <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3731178627184393/" title="Oświetlenie schowka naprawione, po prostu trzeba było wymienić żarówkę. Zrobiłem przy okazji montowania karty sim do carwingsa, jest wtedy…" rel="noopener nofollow" target="_blank">67</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3731178627184393/?comment_id=3731189577183298&reply_comment_id=3731316643837258" title="Krzysiek tu masz wszystko, jest film widać dokładnie opencarwings.viaaq.eu/…" rel="noopener nofollow" target="_blank">68</a>]</sup>. Karty Hologram zostały z zamówienia grupowego u jednego z członków grupy <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3764577983844457&reply_comment_id=3765097597125829" title="zostało mi kilka sztuk po zamówieniu grupowym, pisz priv." rel="noopener nofollow" target="_blank">69</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3766269810341941/?comment_id=3766308013671454&reply_comment_id=3766316173670638" title="trochę ustawien karta od kolegi z grupy z sieci hologram i opencarwings.viaaq.eu" rel="noopener nofollow" target="_blank">70</a>]</sup>. Działa też karta Orange (starter za 5 zł), ale komendy wysyła się wtedy SMS-em <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763522683949987" title="Fajny film. Ja zrobiłem na podstawie jakiegoś zagranicznego filmiku. U mnie działa na SIM z Orange za 5zl starter ale komendy wysyła się…" rel="noopener nofollow" target="_blank">71</a>]</sup>.</li>
+<li>Kartę SIM konfiguruje się przez adapter OBD i aplikację Nissan Leaf Telematics. Działa tylko część tanich adapterów ELM327: szukaj tych z chipem PIC18F25K80 (zwykle z dwiema płytkami w środku). W tej samej obudowie sprzedawane są różne wersje <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/?comment_id=3760312364271019&reply_comment_id=3760324610936461" title="są różne wersje tego adaptera. Z uboższąelektroniką nie zadziała. Mój w końcu się polączył" rel="noopener nofollow" target="_blank">72</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/?comment_id=3760312364271019&reply_comment_id=3760358854266370" title="w takiej samej obudowie jest kilka różnych modeli. Z mojego doświadczenia wynika, że działają te, które mają w środku dwie płytki z…" rel="noopener nofollow" target="_blank">73</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/?comment_id=3760443537591235" title="Proszę szukać adapterów z chipem PIC18F25K80. Niestety w tej samej obudowie kryją się różne wersje elm. Sam szukam teraz kilku sztuk i…" rel="noopener nofollow" target="_blank">74</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/?comment_id=3760443537591235&reply_comment_id=3760450234257232" title="tylko ta aplikacja. Może masz w tle uruchomioną jakąś inną aplikację?" rel="noopener nofollow" target="_blank">75</a>]</sup>.</li>
+<li>Zdalne grzanie z telefonu wystarczy włączyć 5–15 minut przed wyjazdem <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3752582715043984/?comment_id=3752587115043544&reply_comment_id=3752597928375796" title="Sytuację ratuje OpenCarwings, i włączenie ogrzewania telefonem 15 minut przed wyjściem." rel="noopener nofollow" target="_blank">76</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3796073520694903/?comment_id=3796283347340587" title="Ja mam zrobione opencarwings (na forum było jak zrobić) tam uruchamianie grzania jest zdalne z poziomu tel.. Włączam ok 5-10 min przed…" rel="noopener nofollow" target="_blank">77</a>]</sup>.</li>
+<li>Modem działa w sieci 2G, która jeszcze długo ma działać <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014855918816661&reply_comment_id=4015788232056763" title="soft nie jest w stanie przywrócić infrastruktury ale modem 3g działa też na 2g a ta działa (3g w większości jeszcze też) To Nissan wybiegł…" rel="noopener nofollow" target="_blank">78</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016766118625641&reply_comment_id=4017043588597894" title="tego co czytam, to modem w ze0 jest 2G, więc jeszcze trochę podziała" rel="noopener nofollow" target="_blank">79</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4038860299749556&reply_comment_id=4038908079744778" title="2G nie wyłączą jeszcze masę lat - bo to jest core, m.in dla LTE + bo telematyka wielu różnych dziedzin na tym lata. 3G iowszem, wyłączają…" rel="noopener nofollow" target="_blank">80</a>]</sup>.</li>
+</ul>
+<h2 id="nowsze-leafy-aze0-30-kwh-ze1-i-e-nv200">Nowsze Leafy (AZE0 30 kWh, ZE1) i e-NV200 <a class="heading-anchor" href="#nowsze-leafy-aze0-30-kwh-ze1-i-e-nv200" aria-label="Link do sekcji: Nowsze Leafy (AZE0 30 kWh, ZE1) i e-NV200">#</a><button type="button" class="copy-anchor" data-anchor="nowsze-leafy-aze0-30-kwh-ze1-i-e-nv200" title="Kopiuj link do sekcji" aria-label="Kopiuj link do sekcji: Nowsze Leafy (AZE0 30 kWh, ZE1) i e-NV200"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+</h2>
+<ul>
+<li>Mają szyfrowaną komunikację i potrzebują binarnych SMS-ów, których Hologram nie obsługuje. Dlatego trzeba przerobić moduł TCU (wlutować gniazdo SIM) i użyć karty od twórcy OpenCARWINGS <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4024495364519383/?comment_id=4024559347846318&reply_comment_id=4025091331126453" title="Działa w polifcie do roku modelowego 2016. W nowszych autach część opcji już działa ale wymaga lutowania złącza na SIM lub karty SIM w…" rel="noopener nofollow" target="_blank">81</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4024495364519383/?comment_id=4024559347846318&reply_comment_id=4025315674437352" title="szyfrowanie już rozwiązane - problemem jest binarny sms którego hologram nie wspiera. Aktualnie lecą testy na modemach USB" rel="noopener nofollow" target="_blank">82</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/" title="Wygląda na to że temat przywrócenia łączności w nowszych leafach i ENV jest już załatwiony:-) Leafy przed 09/2015 - działa zmiana na karty…" rel="noopener nofollow" target="_blank">20</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4039126036389649" title="Nie wiem, czy dobrze zrozumiałem sytuację: nowsze (2016 -> ) Leafy wymagają binarnych SMSów do komunikacji. Hologram tego nie wspiera, więc…" rel="noopener nofollow" target="_blank">83</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/" title="NissanConnect AZE0 30 kWh + ZE1 40 kWh Jest już nowy sposób na przywrócenie dostępu do aplikacji dla LEAFów 30 kWh, 40 kWh oraz e-NV200. Po…" rel="noopener nofollow" target="_blank">84</a>]</sup>.</li>
+<li>Gotowy, zaprogramowany moduł TCU kosztuje ok. 400 zł (sklep shop.viaaq.eu). Konfiguracja przez kody QR, abonament SIM ok. 2,99 euro miesięcznie. Wysyłając swój moduł, można odzyskać część kosztów <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4058927747742811" title="Czy może ktoś szczegółowo - a nie ogólnie jak w opisie sklepu - napisać jak to działa i co trzeba dodatkowo oprócz przeprogramowanego…" rel="noopener nofollow" target="_blank">85</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4058927747742811&reply_comment_id=4061641747471411" title="zamówiłem z tej strony TCU. Masz instrukcje na filmie jak go podmienić. Paczka przychodzi z kartką co w jakiej kolejności należy wykonać.…" rel="noopener nofollow" target="_blank">86</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4058927747742811&reply_comment_id=4061760820792837" title="opencarwings - też jest kod qr dołączony ogólnie ciężko coś popsuć. Tak zamówiłem już zaprogramowany tcu." rel="noopener nofollow" target="_blank">87</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4038963853072534&reply_comment_id=4038990929736493" title="zamawiasz od nich gotowy cpu i tylko robisz przekładkę. Jak odeślesz im swój to zwracają Ci 50%" rel="noopener nofollow" target="_blank">88</a>]</sup>.</li>
+<li>Gniazdo SIM w TCU wlutuje też serwis GSM, car audio lub GPS. Viaaq robi to wysyłkowo z kartą za ok. 30 euro (łącznie z przesyłkami ok. 300 zł) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4062028644099388/?comment_id=4062060900762829" title="Każdy serwis telefonów komórkowych lub taksometrów, caraudio, GPS. Można też wysłać do serwisu viaaq gdzie zrobią to wysyłkowo z kartą za…" rel="noopener nofollow" target="_blank">89</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4062028644099388/?comment_id=4062060900762829&reply_comment_id=4062068727428713" title="Wyszło jakieś 300zl z przesyłkami." rel="noopener nofollow" target="_blank">90</a>]</sup>. Moduł TCU jest za schowkiem, więc przy okazji wymienisz filtr kabinowy <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3979487355686851&reply_comment_id=3979496872352566" title="OVMS. Jeśli wykosztujesz się na oryginał, to wydaje się, że większość funkcji będzie działać. OpenCar Wings po 2016 to loteria. Z drugiej…" rel="noopener nofollow" target="_blank">91</a>]</sup>.</li>
+<li>W rocznikach 2016–2019 jest więcej zachodu, ale też więcej funkcji <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4046922482276671/?comment_id=4046923898943196&reply_comment_id=4047170668918519" title="2013 działa spoko 2016-19 trochę bardziej upierdliwe ale za to ma więcej funkcji" rel="noopener nofollow" target="_blank">92</a>]</sup>. Po przeróbce może nie działać mikrofon zestawu głośnomówiącego <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4038963853072534&reply_comment_id=4039124039723182" title="mikrofon nie działa w zestawie głośnomówiącym" rel="noopener nofollow" target="_blank">93</a>]</sup>.</li>
+<li><span class="gens" data-gen="1"><span class="gen gen-1">Leaf I</span></span> W późnych AZE0 (2015/2016, TCU 28275 4DA5A) w module jest eSIM. Trzeba go wylutować i wlutować tackę na kartę, ale ten modem pracuje tylko w 3G, które jest w Polsce wygaszane, i to jest największy problem <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/?comment_id=3938178109817776" title="tam jest najprawdoboniej esim. github.com/… w tym watku mas wymieszane pozniej L1 i wczesne L2 niesetty" rel="noopener nofollow" target="_blank">94</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/?comment_id=3938185406483713" title="Trzeba wylutowac e SIM i wlutowac tackę. Na razie nie ma jeszcze pełnej funkcjonalności, wszystko jest w linku wstawionym przez Marcina." rel="noopener nofollow" target="_blank">95</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/?comment_id=3938178109817776&reply_comment_id=3938849979750589" title="Poczytałem, dzięki. Oprócz problemów z komunikacją jest jeszcze problem z samą siecią - wygląda na to, że to TCU ma tylko 3G, które i tak…" rel="noopener nofollow" target="_blank">96</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/?comment_id=3941015712867349&reply_comment_id=3942182686083985" title="wygląda to, że ten modem pracuje w technologii 3g, która jest wygaszana w Polsce. To jest największy problem. Nad resztą chłopaki nadal…" rel="noopener nofollow" target="_blank">97</a>]</sup>.</li>
+<li><span class="gens" data-gen="2"><span class="gen gen-2">Leaf II</span></span> Wiosną 2026 r. społeczność uruchomiła w Leafie II łączność nawigacji z serwerem, a prace nad zdalnymi komendami telematyki trwają (projekt nissan-leaf-tcu na GitHubie) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3913488182286769/?comment_id=3913489535619967&reply_comment_id=3913503488951905" title="youtube.com/…:-) niemniej społeczności udało się już uruchomić np telematyke (nawigacje) prace trwają nad przywróceniem możliwości…" rel="noopener nofollow" target="_blank">98</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3910707385898182/?comment_id=3910747192560868&reply_comment_id=3910787369223517" title="opcja na podłączenie nawigacji do sieci, nadal trwa praca nad wysyłaniem komend do telematyki" rel="noopener nofollow" target="_blank">99</a>]</sup>. Pod koniec marca 2026 r. w tym projekcie potwierdzono działanie po wlutowaniu w TCU slotu na kartę SIM w miejsce chipu eSIM – na płytce są pola lutownicze pod slot <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523" title="Wygląda, ze lada moment OpenCarWings będzie działać. Tylko szybka akcja lutowania w TCU żeby wlutowac slot na kartę sim zamiast chipa z esim" rel="noopener nofollow" target="_blank">100</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523&reply_comment_id=3891309864504601" title="nawet prosciej bo wyglada ze TCU sa pady pod slot na sim i pod proca z esim." rel="noopener nofollow" target="_blank">101</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523&reply_comment_id=3891310507837870" title="github.com/…" rel="noopener nofollow" target="_blank">102</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523&reply_comment_id=3891615951140659" title="github.com/… w ostatnim wpisie sprzed godziny wygląda, ze jest potwierdzenie działania." rel="noopener nofollow" target="_blank">103</a>]</sup>. Slot SIM jest w module TCU, a nie w radiu <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523&reply_comment_id=3891484624487125" title="a to nie bedize czasem wersja z USA? Slot na SIM znajduje sie w TCU a nie w radiu." rel="noopener nofollow" target="_blank">104</a>]</sup>. W nowszych autach wymiana karty nie jest więc prosta i wymaga lutowania <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891320284503559&reply_comment_id=3891605414475046" title="chyba nie masz świadomości, że patent z opencarwings w nowszych wersjach nie wchodzi w rachubę z racji braku możliwości wymiany karty sim w…" rel="noopener nofollow" target="_blank">105</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851222911846630&reply_comment_id=3960334147602172" title="zależy od modułu telematyki jeśli jest slot to łatwo a jeśli nie to trzeba lutować kartę" rel="noopener nofollow" target="_blank">106</a>]</sup>.</li>
+<li>W późnych Leafach I (2016–2017) i wczesnych Leafach II karta jest wlutowana i OpenCARWINGS bywa loterią: zdarza się, że po wlutowaniu slotu i włożeniu karty auto nadal się nie łączy. Twórcy OpenCARWINGS pracują nad obsługą tych roczników <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/" title="Open Vehicle Monitoring System Wszyscy już pewnie wiedzą o kolejnej transzy wyłączeń telemetrii w Nissanach. Pogrom modemów 2g mnie ominął,…" rel="noopener nofollow" target="_blank">107</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870903866545201" title="[osoba] pisał w zeszłym tygodniu, ze trwają prace nad adopcją późnych L1/wczesnych L2 do OpenCarWings. Wydaje mi się/mam nadzieję, ze może…" rel="noopener nofollow" target="_blank">108</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3979487355686851&reply_comment_id=3979496872352566" title="OVMS. Jeśli wykosztujesz się na oryginał, to wydaje się, że większość funkcji będzie działać. OpenCar Wings po 2016 to loteria. Z drugiej…" rel="noopener nofollow" target="_blank">91</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3979487355686851&reply_comment_id=3983935341908719" title="Waldemar StarkHej, możesz rozwinąć tą loterię bo właśnie temat przerabiam- Mam aze0 z 2016 30Kw gdzie wlutowałem tackę sim, włożyłem kartę…" rel="noopener nofollow" target="_blank">109</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860854434216811/?comment_id=3860862424216012" title="Samochód i konto musisz dodać online na pl.nissanconnect.eu ale wsparcie będzie max. do końca miesiąca bo Nissan wycofuje się z Connect EV.…" rel="noopener nofollow" target="_blank">110</a>]</sup>.</li>
+</ul>
+<h2 id="gdy-nie-dziala">Gdy nie działa <a class="heading-anchor" href="#gdy-nie-dziala" aria-label="Link do sekcji: Gdy nie działa">#</a><button type="button" class="copy-anchor" data-anchor="gdy-nie-dziala" title="Kopiuj link do sekcji" aria-label="Kopiuj link do sekcji: Gdy nie działa"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+</h2>
+<ul>
+<li>Sprawdź dokładnie konfigurację: TCU ID, NAVI ID, klucz API i Device ID z Hologramu (nie SIM ID) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3908452596123661/?comment_id=3908476309454623" title="Sprawdź czy nas dobrze device id i api wpisane z holograma" rel="noopener nofollow" target="_blank">111</a>]</sup>. Wpisuj je ręcznie, bez spacji, bo jedna zbędna spacja potrafi wszystko zablokować <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498" title="Sprawdź na spokojnie jeszcze raz konfigurację (TCU ID itp) pod kątem literówek i/lub spacji przed oraz po numerach. Zwróć uwagę na…" rel="noopener nofollow" target="_blank">112</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498&reply_comment_id=4025408284428091" title="Nie, bez myślników jest ok. TCU ID + NAVI ID + API key + Device ID - muszą być poprawne. A nie pomyliłeś przypadkiem Device ID z SIM ID…" rel="noopener nofollow" target="_blank">113</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498&reply_comment_id=4025427331092853" title="dzięki kolego za rady, usunąłem pojazd z carwings i wpisywałem na nowo wszystko ręcznie bez wklejania i poszło, wszystko działa, jeszcze…" rel="noopener nofollow" target="_blank">114</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498&reply_comment_id=4025452884423631" title="To cieszy, niech śmiga:) Tam jedna niepotrzebna spacja potrafi posadzić wszystko, niestety." rel="noopener nofollow" target="_blank">115</a>]</sup>. Zdarza się też po prostu źle włożona karta <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821976034771318&reply_comment_id=3821988511436737" title="API key ustawiony? Bo SMS powinien się wysłać niezależnie czy karta leży na biurku, czy jest w aucie 🧀🙂" rel="noopener nofollow" target="_blank">116</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821976034771318&reply_comment_id=3821996704769251" title="dobra, głupio mi przyznać, ale źle włożyłem kartę 😅" rel="noopener nofollow" target="_blank">117</a>]</sup>.</li>
+<li>Pomaga odłączenie zasilania (akumulatora 12V) na ok. 5 minut i skasowanie błędów CAN COMM w LeafSpy <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016766118625641&reply_comment_id=4016774361958150" title="odepnij Aku na 5 minut." rel="noopener nofollow" target="_blank">118</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498" title="Sprawdź na spokojnie jeszcze raz konfigurację (TCU ID itp) pod kątem literówek i/lub spacji przed oraz po numerach. Zwróć uwagę na…" rel="noopener nofollow" target="_blank">112</a>]</sup>.</li>
+<li>Jeśli odczyt działa, a zdalna klimatyzacja nie, przyczyną może być za niski stan baterii. Bez podłączonego kabla zdalne grzanie ruszy tylko przy baterii powyżej ok. 30% i działa ok. 15 minut <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821976034771318&reply_comment_id=3822239738078281" title="ale właściwie to nadal nie działa zdalne włączanie A/C, mimo, że już działa open carwings, pokazuje stan baterii, lokalizacje itp. Może…" rel="noopener nofollow" target="_blank">119</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3840454019590186/?comment_id=3840463296255925" title="To normalne, timery działają tylko przy podłączonym aucie. Jeżeli wóz jest niepodłączony to możesz uruchomić ogrzewanie zdalnie (jeżeli…" rel="noopener nofollow" target="_blank">120</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3840454019590186/?comment_id=3840849552883966" title="Bo tak ma być - z timera grzeje tylko jak ma wpięty kabel - inaczej po kilku dniach mógłby się rozładować. Z aplikacji start ogrzewania…" rel="noopener nofollow" target="_blank">121</a>]</sup>.</li>
+<li>Jeśli nie widać tras ani błędów DTC, wybierz w ustawieniach ostatnią opcję (custom OpenCARWINGS). Potem widać trasy od dnia instalacji <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3829572990678289/?comment_id=3832749647027290" title="U mnie problem sie rozwiazal po ustawieniu ostatniej opcji czyli custom opencarwings. Co ciekawe wszystkie trasy od momentu zainstalowania…" rel="noopener nofollow" target="_blank">122</a>]</sup>.</li>
+<li>Gdy OpenCARWINGS nagle przestaje się łączyć, pomaga usunięcie i ponowne dodanie auta albo reset przez odłączenie 12V. Warto podłączyć do serwera zarówno TCU, jak i nawigację <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3782954612006794/?comment_id=3783246955310893" title="U mnie działa, ale koledzy z grupy mieli podobny problem - jednemu pomogło usunięcie i ponowne dodanie auta, drugiemu reset 12v w aucie." rel="noopener nofollow" target="_blank">123</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3782954612006794/?comment_id=3783246955310893&reply_comment_id=3784054291896826" title="mam i tcu i nawigację podłączoną. Czy jest to związane z błędem, nie wiem. Polecam jednak podłączyć oba urządzenia, bo nawigacja przesyła…" rel="noopener nofollow" target="_blank">124</a>]</sup>.</li>
+<li>Gdy lokalizacja w OpenCARWINGS pokazuje najbliższy nadajnik GSM zamiast auta, spróbuj zresetować TCU: odepnij jego wiązkę na kilka minut albo akumulator 12V (co najmniej 3 minuty po wyłączeniu auta) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3805872459715009/?comment_id=3806328623002726" title="Spróbuj zresetować TCU - to tak na początek. Odłącz wiązkę elektryczną od niego na kilka minut, lub aku 12V zgodnie ze sztuką (odczekaj 3…" rel="noopener nofollow" target="_blank">125</a>]</sup>. W opisanym przypadku reset przez akumulator nie pomógł <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3805872459715009/?comment_id=3806328623002726&reply_comment_id=3824158234553098" title="reset przez akumulator nie pomógł. Jakieś inne opcje?" rel="noopener nofollow" target="_blank">126</a>]</sup>.</li>
+<li>OpenCARWINGS pokazuje poprawny czas, ale nie naprawia rozjechanego zegara w aucie (zobacz <a href="/a6/">a6</a>) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3751801881788734/?comment_id=3752186675083588&reply_comment_id=3752231715079084" title="Owszem działa ustawieni czasu przez menu serwisowe ale też podejrzewam, że za pól roku będzie to samo. Mam openCarwings czas pokazuje…" rel="noopener nofollow" target="_blank">127</a>]</sup>.</li>
+<li>W samym TCU lubi paść kondensator SMD. Wtedy moduł resetuje się przy słabszym sygnale GSM <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498" title="Sprawdź na spokojnie jeszcze raz konfigurację (TCU ID itp) pod kątem literówek i/lub spacji przed oraz po numerach. Zwróć uwagę na…" rel="noopener nofollow" target="_blank">112</a>]</sup>.</li>
+<li>Leafy z USA pokazują lokalizację w Kalifornii lub Detroit, a zmiana map na europejskie wymaga przeprogramowania lub wymiany multimediów <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016979661937620&reply_comment_id=4017041655264754" title="mam USA 2013. Tylko lokalizację pokazuje w Kalifornii" rel="noopener nofollow" target="_blank">128</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4016159352019651&reply_comment_id=4016759995292920" title="drążyłem temat. A nawet wystarczyłoby, żeby pokazywał prawidłową pozycję GPS w opencarwings. Nie do zrobienia bez wymiany całej stacji…" rel="noopener nofollow" target="_blank">129</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3812055362430052/?comment_id=3812070619095193" title="Wersja USA samochod sprowadzony dlatego tak pokazuje. Całość do przeprogramowania navi i radio. Sprawdź jescze czy masz w radiu dziesiąte…" rel="noopener nofollow" target="_blank">130</a>]</sup>. Przy wymianie radia trzeba jeszcze przerabiać wiązkę do kierownicy, więc wielu uznaje, że gra nie jest warta świeczki <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3933515693617351/?comment_id=3933545066947747&reply_comment_id=3933553856946868" title="[osoba], pisałem że z USA. Niestety iak czytam to raczej bez wymiany radia się nie da, a nawet jak się wymieni to trzeba kombinować z…" rel="noopener nofollow" target="_blank">131</a>]</sup>.</li>
+</ul>
+<h2 id="ovms-i-inne-alternatywy">OVMS i inne alternatywy <a class="heading-anchor" href="#ovms-i-inne-alternatywy" aria-label="Link do sekcji: OVMS i inne alternatywy">#</a><button type="button" class="copy-anchor" data-anchor="ovms-i-inne-alternatywy" title="Kopiuj link do sekcji" aria-label="Kopiuj link do sekcji: OVMS i inne alternatywy"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+</h2>
+<ul>
+<li><span class="gens" data-gen="2"><span class="gen gen-2">Leaf II</span></span> W Leafie II (np. Acenta 2023 bez telematyki) członkowie grupy wskazywali OVMS, choć w ZE1 wymaga on więcej modyfikacji <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3493210357647889/?comment_id=3493211384314453" title="Ovms" rel="noopener nofollow" target="_blank">132</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3493210357647889/?comment_id=3493211467647778" title="Ovms" rel="noopener nofollow" target="_blank">133</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3493210357647889/?comment_id=3493211384314453&reply_comment_id=3493239637644961" title="niestety ze1 nie działa tak o wymaga to wielu modów" rel="noopener nofollow" target="_blank">134</a>]</sup>. Co OVMS potrafi w danym roczniku, w tym zdalne grzanie, sprawdzisz w jego dokumentacji dla Leafa <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3686823141619942/?comment_id=3686838051618451" title="To zależy którego. docs.openvehicles.com/… masz dokumentację" rel="noopener nofollow" target="_blank">135</a>]</sup>. Już w 2024 r. opisywano, że w ZE1 trzeba zbudować dodatkową wiązkę z drugą linią CAN (VCM i EV-CAN), bo samo gniazdo OBD nie wystarcza <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3218562685112659/?comment_id=3218564465112481&reply_comment_id=3218992428403018" title="wymaga to zbudowania nowej wiązki obd i podania 2 linii can jednej z vcm drugiej z ev can i dopiero podłączenia ovms" rel="noopener nofollow" target="_blank">136</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3218562685112659/?comment_id=3218564465112481&reply_comment_id=3218992825069645" title="na forum ovms masz opis co skąd i dokąd pociągnąć, trzeba nowy port obd zbudować na potrzeby ovms" rel="noopener nofollow" target="_blank">137</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/?comment_id=3222915591344035&reply_comment_id=3222918721343722" title="masz dużo danych, zarządzanie, lokalizacja plus mega dużo opcji jak jmiesz programować to jest soft open source a działa z wieloma bev. Dla…" rel="noopener nofollow" target="_blank">138</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/?comment_id=3222915591344035&reply_comment_id=3222924248009836" title="To pasuje do az0 i aze0 wymaga trochę roboty przy montażu i trochę programowania (podstawowa konfiguracja przez www) Niestety nowy leaf ze1…" rel="noopener nofollow" target="_blank">139</a>]</sup>.</li>
+<li><strong>OVMS</strong> (Open Vehicle Monitoring System) to uniwersalny moduł telemetryczny wpinany w złącze OBD. Kosztuje ok. 215–230 GBP z wysyłką z Wielkiej Brytanii, do tego cło ok. 240 zł. Zestaw zawiera kartę Hologram <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/" title="Open Vehicle Monitoring System Wszyscy już pewnie wiedzą o kolejnej transzy wyłączeń telemetrii w Nissanach. Pogrom modemów 2g mnie ominął,…" rel="noopener nofollow" target="_blank">107</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437" title="Jestem użytkownikiem OVMS od roku czyli od początku używania Leafa. Zamawiałem z UK i oczywiscie była odprawa celna i należności celne…" rel="noopener nofollow" target="_blank">140</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3879758682326386" title="Kupowałem OVMS w lutym, 214GBP cło 240zł. Funkcjonalności tak jak koledzy pisali. W konfigurowaniu bardzo mi pomogło AI, konkretnie Gemini.…" rel="noopener nofollow" target="_blank">141</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3830851647217090/?comment_id=3831804843788437&reply_comment_id=3879741925661395" title="Dzięki za odpowiedź. Kupiłem OVMS, trochę z cłem było zabawy. Działa fajnie tylko często rozłącza połączenie przez GSM i nie wiem dlaczego,…" rel="noopener nofollow" target="_blank">142</a>]</sup>. W 2024 r. wersja 4G kosztowała razem z cłem ok. 1000–1500 zł (wcześniej starsza wersja ok. 600 zł) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/?comment_id=3222915591344035&reply_comment_id=3222952861340308" title="tak myślałem. Waham się nad tym ovms 1.3k pln to sporo kasy, ciężko będzie żonie wytłumaczyć że auto tego potrzebuje 😂" rel="noopener nofollow" target="_blank">143</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/?comment_id=3222915591344035&reply_comment_id=3222954534673474" title="mi 48 cla dosłownie do dopłaty przy dostawie. Ale sprzęt super i daje dużo możliwości" rel="noopener nofollow" target="_blank">144</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254003201568607/?comment_id=3254004314901829&reply_comment_id=3254005534901707" title="jest nazywa się OVMS:-)" rel="noopener nofollow" target="_blank">145</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3389017238067202/?comment_id=3389189681383291&reply_comment_id=3389308044704788" title="z tego co udało mi się wyczytać urządzenie kosztuje prawie 1000zł i będę mógł zdalnie włączać ogrzewanie tylko podczas ładowania auta.…" rel="noopener nofollow" target="_blank">146</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3460374820931443/?comment_id=3460387354263523" title="tak da się sterować aplikacją OVMS trzeba kupić moduł najlepiej lte 4G. Ja korzystam i jest super, działa bez podłączenia samochodu do…" rel="noopener nofollow" target="_blank">147</a>]</sup>. Zamiast karty Hologram działa zwykła karta polskiego operatora z pakietem danych, np. Play (karta bez PIN-u, APN operatora) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3274068242895436/?comment_id=3275660102736250&reply_comment_id=3275673589401568" title="ja używam ovms" rel="noopener nofollow" target="_blank">148</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3274068242895436/?comment_id=3275660102736250&reply_comment_id=3279272482375012" title="tak sim.z play" rel="noopener nofollow" target="_blank">149</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340&reply_comment_id=3329780143990912" title="zdaję się że tam na stronie było napisane żeby odłączyć tcu🤔 Karta pewnie dobrze byłoby żeby nie miała pinu." rel="noopener nofollow" target="_blank">150</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340&reply_comment_id=3483056058663319" title="wpisać DNS do modemu, Tak aby działała karta z Play. Bo APN: Play, username: nic nie wpisuje password: też nic nie wpisuje. Ale nie wiem…" rel="noopener nofollow" target="_blank">151</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3460374820931443/?comment_id=3460387354263523" title="tak da się sterować aplikacją OVMS trzeba kupić moduł najlepiej lte 4G. Ja korzystam i jest super, działa bez podłączenia samochodu do…" rel="noopener nofollow" target="_blank">147</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3460374820931443/?comment_id=3460393090929616" title="Też miałem ten problem. Zamontowałem OVMS cała zabawa może z 2 godziny. Do tego zamawiasz Data-sim od swojego operatora w moim przypadku 29…" rel="noopener nofollow" target="_blank">152</a>]</sup>.</li>
+<li><span class="gens" data-gen="1"><span class="gen gen-1">Leaf I</span></span> Według użytkowników w Leafie I potrafi: włączyć grzanie i klimatyzację także bez podłączonego kabla, otworzyć i zamknąć auto, ustawić limit ładowania (również SMS-em), pokazać stan baterii, napięcie 12V, lokalizację GPS, ciśnienie w oponach oraz wysyłać powiadomienia o ładowaniach i trasach <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3830851647217090/?comment_id=3831804843788437" title="Ja mam w roczniku 2015, można limit ładowania dać jaki się chce, oraz włączać ogrzewanie,klimę bez podpiętego kabla." rel="noopener nofollow" target="_blank">153</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437" title="Jestem użytkownikiem OVMS od roku czyli od początku używania Leafa. Zamawiałem z UK i oczywiscie była odprawa celna i należności celne…" rel="noopener nofollow" target="_blank">140</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437&reply_comment_id=3871164506519137" title="ja ovms mialem w kilku aze0 w każdym działa ok otwiera drzwi zdalnie zamyka klimatyzacji bez ładowarki wpięte, i wiele innych danych mozna…" rel="noopener nofollow" target="_blank">154</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3871378616497726" title="Mam też w aze0. Można otworzyć i zamknąć auto. Można włączyć grzanie lub chłodzenie nawet w aucie nie wpiętym do ładowarki, kontrolować…" rel="noopener nofollow" target="_blank">155</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3879758682326386" title="Kupowałem OVMS w lutym, 214GBP cło 240zł. Funkcjonalności tak jak koledzy pisali. W konfigurowaniu bardzo mi pomogło AI, konkretnie Gemini.…" rel="noopener nofollow" target="_blank">141</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/?comment_id=3254016588233935&reply_comment_id=3254191288216465" title="jest lokalizacja, opis funkcji na stronie znajdziesz. Ja mam zamontowane za radiem wpina w obd port bo mam 2;)" rel="noopener nofollow" target="_blank">156</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/?comment_id=3254045814897679&reply_comment_id=3254327768202817" title="mogę załączyć i wyłączyć ładowanie, to samo z klimą" rel="noopener nofollow" target="_blank">157</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254003201568607/?comment_id=3254055511563376&reply_comment_id=3254126924889568" title="A czy w polifcie z 2013 r. będę mógł tym urządzeniem zdalnie uruchomić grzanie / chłodzenie?" rel="noopener nofollow" target="_blank">158</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254003201568607/?comment_id=3254055511563376&reply_comment_id=3254219331546994" title="tak" rel="noopener nofollow" target="_blank">159</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3451154338520158/?comment_id=3451490081819917&reply_comment_id=3451536951815230" title="Można jeszcze zamontować OVMS moduł z Lte  shop.openenergymonitor.com/…  Trochę kosztuje, ale Leaf nie musi być podłączony do zasilania i…" rel="noopener nofollow" target="_blank">160</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3394995294136063/?comment_id=3394999610802298" title="Ovms mi to umożliwia jak i dowolny poziom soc" rel="noopener nofollow" target="_blank">161</a>]</sup>. Moduł montuje się za radiem z rozgałęźnikiem OBD; członkowie grupy oceniali montaż na ok. 2 godziny <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/?comment_id=3254206501548277" title="Czyli modele od 2017r wzwyż będą miały aplikacje bo tak był modem LTE?" rel="noopener nofollow" target="_blank">162</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/?comment_id=3254045814897679&reply_comment_id=3934085266893727" title="youtube.com/…" rel="noopener nofollow" target="_blank">163</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3460374820931443/?comment_id=3460393090929616" title="Też miałem ten problem. Zamontowałem OVMS cała zabawa może z 2 godziny. Do tego zamawiasz Data-sim od swojego operatora w moim przypadku 29…" rel="noopener nofollow" target="_blank">152</a>]</sup>.</li>
+<li>Przy konfiguracji OVMS odłącz oryginalny moduł łączności (TCU za schowkiem pasażera) i korzystaj z dokumentacji docs.openvehicles.com, gdzie jest też reset do ustawień fabrycznych <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/?comment_id=3335358496766410" title="docs.openvehicles.com/…" rel="noopener nofollow" target="_blank">164</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/?comment_id=3335358496766410&reply_comment_id=3339474459688147" title="Jeszcze nie, ale trzeba 1 pierwszej kolejności odłączyć moduł Carwingss jest umieszczony za schowkiem pasażera. Jak podłączę i skonfiguruję…" rel="noopener nofollow" target="_blank">165</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340" title="Odłączyłeś tcu?? I jak.z.konfiguracja karty sim?? Jak się kablem.polaczysz działa??" rel="noopener nofollow" target="_blank">166</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340&reply_comment_id=3329969603971966" title="docs.openvehicles.com/… Tu masz instrukcje" rel="noopener nofollow" target="_blank">167</a>]</sup>. Gdy OVMS widzi tylko napięcie 12 V, a nie stan baterii, przyczyną bywa niewłaściwy kabel OBD – do Leafa potrzebny jest inny niż do większości aut <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340&reply_comment_id=3346142755687984" title="Dobra działa. Okazało się że zamówiłem zły kabel. Do Nissana leafa jest inny. Paweł pytanie. Czy tobie też zaniża zasięg w ovmsie. Na…" rel="noopener nofollow" target="_blank">168</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/?comment_id=3335358496766410&reply_comment_id=3339561119679481" title="W czasie jazdy nie sprawdzałem. Teraz, w czasie postoju strona pokazuje tylko lokalizację i przebieg. Ale w apce stan baterii jest." rel="noopener nofollow" target="_blank">169</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/?comment_id=3335358496766410&reply_comment_id=3426196364349289" title="jeszcze nie udało mi się do końca poustawiać wszystkiego, ale też nie pokazuje mi stanu naładowania baterii, jest tylko napięcie akumulatora" rel="noopener nofollow" target="_blank">170</a>]</sup>.</li>
+<li><span class="gens" data-gen="1"><span class="gen gen-1">Leaf I</span></span> Żeby działało zdalne grzanie, w AZE0 trzeba odpiąć piny komunikacji oryginalnego TCU. Odpięcie całej wtyczki wyłącza mikrofon, a LeafSpy pokaże błędy braku odpowiedzi TCU <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437&reply_comment_id=3871223436513244" title="aze0 2016r, musiałem odpiąć piny komunikacji od TCU żeby działało zdalne odpalanie grzania. Najpierw odpiąłem całą wtyczkę ale wtedy…" rel="noopener nofollow" target="_blank">171</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437&reply_comment_id=3871425076493080" title="naturalnie błędy jakieś się pojawiły, w końcu nie ma odpowiedzi z TCU..." rel="noopener nofollow" target="_blank">172</a>]</sup>.</li>
+<li>Porównanie użytkownika obu rozwiązań: OpenCARWINGS jest najtańszy, ale nie zatrzyma ładowania i z kartą Hologram bywa wolny i niepewny. OVMS działa szybciej, pozwala przerwać ładowanie w dowolnym momencie, a oba integrują się z Home Assistantem <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763419847293604" title="Fajny filmik super, że poświęciłeś na to czas. Jest to najtańsza opcja by przywrócić część przydatnych opcji w Leafie, przetestowałem i co…" rel="noopener nofollow" target="_blank">173</a>]</sup>. Inny użytkownik ma z OpenCARWINGS stabilne połączenie (Hologram wybiera sieć Orange) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763419847293604&reply_comment_id=3765046937130895" title="OpenCarWings mnie osobiście wystarcza (de facto używam tylko ogrzewania zimą, i informacji o tym że ładowanie zakończyło się jeżeli czasami…" rel="noopener nofollow" target="_blank">174</a>]</sup>. Z rozdzielaczem OBD działają jednocześnie OVMS i LeafSpy <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763534260615496&reply_comment_id=3814939395474982" title="ale wtedy nie można mieć jednocześnie ovms i leafspy? Ovms to też OBD2?" rel="noopener nofollow" target="_blank">175</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763534260615496&reply_comment_id=3814944502141138" title="ja mam splitee obd i działa i to i to" rel="noopener nofollow" target="_blank">176</a>]</sup>.</li>
+<li>Połączenie GSM potrafi się rozłączać, przez Wi-Fi w garażu działa stabilnie. Konfiguracja jest na poziomie konfigurowania routera, w języku angielskim <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3830851647217090/?comment_id=3831804843788437&reply_comment_id=3879741925661395" title="Dzięki za odpowiedź. Kupiłem OVMS, trochę z cłem było zabawy. Działa fajnie tylko często rozłącza połączenie przez GSM i nie wiem dlaczego,…" rel="noopener nofollow" target="_blank">142</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437" title="Jestem użytkownikiem OVMS od roku czyli od początku używania Leafa. Zamawiałem z UK i oczywiscie była odprawa celna i należności celne…" rel="noopener nofollow" target="_blank">140</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3871378616497726" title="Mam też w aze0. Można otworzyć i zamknąć auto. Można włączyć grzanie lub chłodzenie nawet w aucie nie wpiętym do ładowarki, kontrolować…" rel="noopener nofollow" target="_blank">155</a>]</sup>.</li>
+<li><span class="gens" data-gen="2"><span class="gen gen-2">Leaf II</span></span> Do Leafa z początku 2019 r. członkowie grupy polecają raczej OVMS. W Leafie II OVMS jest wciąż w wersji beta <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3979487355686851&reply_comment_id=3979496872352566" title="OVMS. Jeśli wykosztujesz się na oryginał, to wydaje się, że większość funkcji będzie działać. OpenCar Wings po 2016 to loteria. Z drugiej…" rel="noopener nofollow" target="_blank">91</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870903866545201" title="[osoba] pisał w zeszłym tygodniu, ze trwają prace nad adopcją późnych L1/wczesnych L2 do OpenCarWings. Wydaje mi się/mam nadzieję, ze może…" rel="noopener nofollow" target="_blank">108</a>]</sup>. Jeden z członków grupy pisał, że w rocznikach 2016–2017 zdalne grzanie przez OVMS nie działa – przed zakupem sprawdź to dla swojego auta <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860533687582219/?comment_id=3860544250914496&reply_comment_id=3860849290883992" title="zdalne grzanie/chłodzenie nie działa dla roczników 2016/2017 w OVMS niestety:(" rel="noopener nofollow" target="_blank">177</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860533687582219/?comment_id=3860544250914496&reply_comment_id=3862502157385372" title="nie działa? To jakinz niego pożytek? Grzanie to najważniejsza opzja i jedyna potrzebna. Właśnie go rozważam kupienia tylko dla grzania budy…" rel="noopener nofollow" target="_blank">178</a>]</sup>. Montaż OVMS jest szybki, OpenCARWINGS wymaga więcej umiejętności <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891619801140274" title="Polecam ovms - szybki montaż i wszystko działa. Ewentualnie opencarwings - ale to wymaga trochę większych emiejętności." rel="noopener nofollow" target="_blank">179</a>]</sup>.</li>
+<li>Leaf z USA ma modem, który nie działa w Europie, więc zostaje praktycznie tylko OVMS z własnym modemem <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891278814507706&reply_comment_id=3892113924424195" title="to wydaje mi się że tylko OVMS bo ma swoj modem i port kartę SIM. Wbudowany nie działa w Europie." rel="noopener nofollow" target="_blank">180</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3225527451082849/?comment_id=3225545471081047&reply_comment_id=3225561387746122" title="nie" rel="noopener nofollow" target="_blank">181</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3225527451082849/?comment_id=3225545471081047&reply_comment_id=3225576624411265" title="mozna" rel="noopener nofollow" target="_blank">182</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3225527451082849/?comment_id=3225579737744287&reply_comment_id=3225655127736748" title="openvehicles.com/…" rel="noopener nofollow" target="_blank">183</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3239481289687465/?comment_id=3239482959687298" title="Samochód z usa nie będzie działać w europie w tej materii. Zakup OVMS i wtedy zyskasz co potrzebne" rel="noopener nofollow" target="_blank">184</a>]</sup>. Moduł TCU z nowszego Leafa nie zadziała w starszym, bo jest przypisany do VIN <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3301450096823917/?comment_id=3306260713009522" title="Tcu przypisane jest do vin, zmiana tego, tak samo jak zmiana navi nie jest w nissanie plug and play" rel="noopener nofollow" target="_blank">185</a>]</sup>.</li>
+<li>Tańsza, okrojona wersja OVMS na module Lilygo (DIY, poniżej 100 USD) nie radzi sobie z najważniejszą funkcją, czyli zdalną klimatyzacją <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/" title="Open Vehicle Monitoring System Wszyscy już pewnie wiedzą o kolejnej transzy wyłączeń telemetrii w Nissanach. Pogrom modemów 2g mnie ominął,…" rel="noopener nofollow" target="_blank">107</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3979487355686851&reply_comment_id=3979497985685788" title="Od razu dodam, że z tym modułem Lilygo trochę utknąłem. Nie działa najważniejsza dla mnie funkcja - klimatyzacja zdalna i wiele wskazuje na…" rel="noopener nofollow" target="_blank">186</a>]</sup>.</li>
+<li><strong>SimppeliTCU</strong> i inne projekty z GitHuba to budżetowe rozwiązania dla majsterkowiczów <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014841292151457" title="simppelitcu mam u mnie działa wyśmienicie. Poczytaj na github" rel="noopener nofollow" target="_blank">187</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4038943853074534" title="Pozostaje jeszcze bardzo budżetowe rozwiązanie github.com/…" rel="noopener nofollow" target="_blank">188</a>]</sup>. SimppeliTCU działa w ZE1 i AZE0 (bez odczytu temperatury kabiny) i kosztuje prawie nic, ale wymaga modyfikacji auta <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3943471602621760/?comment_id=3943497342619186&reply_comment_id=3943509995951254" title="Ja obsługuję poprzez github.com/… proste i skuteczne rozwiązanie. Możesz też przez OVMS." rel="noopener nofollow" target="_blank">189</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3943471602621760/?comment_id=3943497342619186&reply_comment_id=3943521295950124" title="OVMS tak simppeliTCU działa w ZE1 i w AZE0 z tym, że nie ma odczytu temperatury w kabinie. Wcześniejsze nie mam pojęcia trzeba spróbować.…" rel="noopener nofollow" target="_blank">190</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3943471602621760/?comment_id=3943497342619186&reply_comment_id=3943970629238524" title="samochód trzeba zmodyfikować. Nie wystarczy samo pobranie i konfiguracja" rel="noopener nofollow" target="_blank">191</a>]</sup>. Na module LilyGO T-CAN działają też gotowce simppeliTCU i BatteryEmulator, które wysyłają dane po MQTT, np. do Home Assistanta. Trzeba im jednak dodać usypianie, żeby nie drenowały 12V <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3888372554798332/?comment_id=3888488298120091" title="Masz gotowca, po MQTT wyrzuca dane z 🔋. Dodać tylko usypianie HW. BatteryEmulator na githubie." rel="noopener nofollow" target="_blank">192</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3888372554798332/?comment_id=3888488298120091&reply_comment_id=3921104388191815" title="github.com/…" rel="noopener nofollow" target="_blank">193</a>]</sup>.</li>
+</ul>
+<h2 id="home-assistant-po-wylaczeniu-nissanconnect">Home Assistant po wyłączeniu NissanConnect <a class="heading-anchor" href="#home-assistant-po-wylaczeniu-nissanconnect" aria-label="Link do sekcji: Home Assistant po wyłączeniu NissanConnect">#</a><button type="button" class="copy-anchor" data-anchor="home-assistant-po-wylaczeniu-nissanconnect" title="Kopiuj link do sekcji" aria-label="Kopiuj link do sekcji: Home Assistant po wyłączeniu NissanConnect"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+</h2>
+<ul>
+<li>W późnych Leafach I i Leafach II z nawigacją z kartą SD (do ok. 2019 r.) zostaje tylko OVMS, bo nie ma fizycznej karty SIM do wymiany <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877536419215279" title="Na ten moment W późnych L1 oraz L2 do połowy produkcji (z kartą sd) jedynie OVMS." rel="noopener nofollow" target="_blank">194</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877537629215158&reply_comment_id=3877545029214418" title="dla późnych L1 i L2 przed liftem nie działa bo nie ma fizycznej sim." rel="noopener nofollow" target="_blank">195</a>]</sup>.</li>
+<li><span class="gens" data-gen="2"><span class="gen gen-2">Leaf II</span></span> Od ok. 2020 r. Leafy II z dużą nawigacją bez czytnika SD (np. N-Connecta) nadal łączą się z Nissanem, więc natywna integracja z Home Assistantem działa. Moduł telematyki mają tylko wyższe wersje wyposażenia <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877538375881750&reply_comment_id=3877545972547657" title="2020 to może mieć już nawigacje bez karty SD i tam będzie działać o ile jest fizycznie zamontowany moduł telematyki - bo o ile wcześniej…" rel="noopener nofollow" target="_blank">196</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877538375881750&reply_comment_id=3877551605880427" title="wg ogłoszenia to nconnecta z navi bez sd. Więc natywna integracja w ha będzie działać" rel="noopener nofollow" target="_blank">197</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877538375881750&reply_comment_id=3878749322427322" title="od 2020roku jest już duża navi i mam wersję acenta i jak narazie wszystko śmiga. Problem raczej bedzie do 2019 roku na starszej navi na cd." rel="noopener nofollow" target="_blank">198</a>]</sup>.</li>
+<li>Nie odpytuj auta zbyt często, bo drenuje to akumulator 12V (zobacz <a href="/u4/">u4</a>) <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3814829778819277/?comment_id=3814934292142159" title="A co z nim nie tak? Ja czytam HA przez integrację z Connectem i jest OK (oczywiście im częściej czytasz tym lepsze wyniki i mniej prądu w…" rel="noopener nofollow" target="_blank">199</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3884751858493735/?comment_id=3884799951822259" title="Wydaje sie, ze wylaczenie NissanConnect pomoglo - przez 30min nic sie nie zalaczylo. Teraz niech Nissan sie wytlumaczy co sie u nich…" rel="noopener nofollow" target="_blank">200</a>]</sup>.</li>
+<li>W starszych Leafach z OpenCARWINGS da się użyć integracji homeassistant-carwings jako źródła danych o aucie, a smart gniazdka jako „wykonawcy”, np. do przerywania ładowania przy 80% <sup class="ref">[<a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851153365186918" title="Ja ma spiete z Home Assistantem. Dzieki temu moge ustawic sobie limit ladowania do 80% za pomoca smart gniazdka, lub wlaczyc ogrzewanie.…" rel="noopener nofollow" target="_blank">201</a>, <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851153365186918&reply_comment_id=3851781425124112" title="[osoba].com/… jako zbior informacji o aucie a smart gniazdko jako element wykonawczy" rel="noopener nofollow" target="_blank">202</a>]</sup>. Więcej przykładów automatyki w <a href="/l9/">l9</a>.</li>
+</ul>
+
+  </div>
+
+  <section class="sources" aria-labelledby="zrodla">
+    <h2 id="zrodla">Źródła z grupy <a class="heading-anchor" href="#zrodla" aria-label="Link do sekcji: Źródła z grupy">#</a><button type="button" class="copy-anchor" data-anchor="zrodla" title="Kopiuj link do sekcji" aria-label="Kopiuj link do sekcji: Źródła z grupy"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"><path d="M10 13.5a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.2 1.2M14 10.5a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+</h2>
+    
+    <details class="refs-box">
+      <summary>Odpowiedzi, na których oparto sekcje (202)</summary>
+      <ol class="refs">
+        
+        <li id="z1" value="1">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4016492731986313&amp;reply_comment_id=4016760751959511" rel="noopener nofollow" target="_blank">odpowiedź z 10.08.2026</a>
+          <span class="excerpt">„naładowania w telefonie, możliwość wystartowania ładowania lub klimatyzacji z telefonu, pozycja auta, historia tras i ładowań itp”</span>
+        </li>
+        
+        <li id="z2" value="2">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4049776971991222&amp;reply_comment_id=4050076408627945" rel="noopener nofollow" target="_blank">odpowiedź z 13.09.2026</a>
+          <span class="excerpt">„podstawa to zdalne rozmrażanie Trochę statystyk trochę bajerów Są dwa dobre filmiki na ten temat naszego kolegi grupowego polecam obejrzeć…”</span>
+        </li>
+        
+        <li id="z3" value="3">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4046922482276671/?comment_id=4046923898943196&amp;reply_comment_id=4047189075583345" rel="noopener nofollow" target="_blank">odpowiedź z 10.09.2026</a>
+          <span class="excerpt">„Mam od 2 tygodni. Działa lepiej niż wcześniej apka nissana.”</span>
+        </li>
+        
+        <li id="z4" value="4">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4049776971991222&amp;reply_comment_id=4049852815316971" rel="noopener nofollow" target="_blank">odpowiedź z 13.09.2026</a>
+          <span class="excerpt">„12-15 działało już wcześniej i prościej Mam uruchomione na 13r apka działa lepiej szybciej niż oryginalna nissanowska”</span>
+        </li>
+        
+        <li id="z5" value="5">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016766118625641&amp;reply_comment_id=4016774595291460" rel="noopener nofollow" target="_blank">odpowiedź z 10.08.2026</a>
+          <span class="excerpt">„na android jest apka”</span>
+        </li>
+        
+        <li id="z6" value="6">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016805098621743&amp;reply_comment_id=4016806425288277" rel="noopener nofollow" target="_blank">odpowiedź z 10.08.2026</a>
+          <span class="excerpt">„trzeba ją ubijać poki co systemowo. Kilka bugów w niej jest. Ja korzystam nadal przez WWW, błędy zgłaszam na bieżąco do autora.”</span>
+        </li>
+        
+        <li id="z7" value="7">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/" rel="noopener nofollow" target="_blank">post z 14.02.2026</a>
+          <span class="excerpt">„Chciałby się podzielić aplikacja do opencarwings na androida, która dostałem do [osoba] działa jest fajna i funkcjonalna - nie trzeba już…”</span>
+        </li>
+        
+        <li id="z8" value="8">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851084261860495&amp;reply_comment_id=3851093138526274" rel="noopener nofollow" target="_blank">odpowiedź z 14.02.2026</a>
+          <span class="excerpt">„na jabłuszko to tak apps.apple.com/…”</span>
+        </li>
+        
+        <li id="z9" value="9">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851072395195015" rel="noopener nofollow" target="_blank">komentarz z 14.02.2026</a>
+          <span class="excerpt">„Ja może powiem jaką opcję którą u siebie zrobiłem. Działa to fajnie w zasadzie jakbym miał aplikacje na androida. Wchodzimy na telefonie na…”</span>
+        </li>
+        
+        <li id="z10" value="10">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3852836721685249&amp;reply_comment_id=3852837195018535" rel="noopener nofollow" target="_blank">odpowiedź z 16.02.2026</a>
+          <span class="excerpt">„tylko liść”</span>
+        </li>
+        
+        <li id="z11" value="11">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3852836721685249&amp;reply_comment_id=3960333677602219" rel="noopener nofollow" target="_blank">odpowiedź z 11.06.2026</a>
+          <span class="excerpt">„liść i bliźniaczy env200 a to kony to ovms lub hyundajowski bluelink”</span>
+        </li>
+        
+        <li id="z12" value="12">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3812663472369241/" rel="noopener nofollow" target="_blank">post z 5.01.2026</a>
+          <span class="excerpt">„Hej. Gdyby ktoś używał OpenCARWINGS i chciał sobie spiąć liścia z Home Assistant, to napisałem integrację dostępną w HACS github.com/… To…”</span>
+        </li>
+        
+        <li id="z13" value="13">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3882078998761021/?comment_id=3882158832086371" rel="noopener nofollow" target="_blank">komentarz z 20.03.2026</a>
+          <span class="excerpt">„Zainstaluj sobie opencarwings i zdalnie odpalisz i ustawisz timery bez podłączonego auta do ładowarki. Koszt karty około 50zł i godzina…”</span>
+        </li>
+        
+        <li id="z14" value="14">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3933515693617351/?comment_id=3933679693600951&amp;reply_comment_id=3934208033548117" rel="noopener nofollow" target="_blank">odpowiedź z 15.05.2026</a>
+          <span class="excerpt">„Akurat w tym przypadku można bez problemów postawić sobie swój własny serwer w domu dla OpenCarWings. Wszystkie potrzebne do tego pliki są…”</span>
+        </li>
+        
+        <li id="z15" value="15">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3933515693617351/?comment_id=3933679693600951" rel="noopener nofollow" target="_blank">komentarz z 14.05.2026</a>
+          <span class="excerpt">„Nie wiem czy udostępnianie pozycji, historii tras, miejsc postojów do jakichkolwiek serwerów jest bezpieczne. W przypadku wycieku danych…”</span>
+        </li>
+        
+        <li id="z16" value="16">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014559328846320" rel="noopener nofollow" target="_blank">komentarz z 7.08.2026</a>
+          <span class="excerpt">„Owszem przez opencarwings - opisywane bylo wielokrotnie”</span>
+        </li>
+        
+        <li id="z17" value="17">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014901902145396" rel="noopener nofollow" target="_blank">komentarz z 8.08.2026</a>
+          <span class="excerpt">„Wersja obrazkowa: youtu.be/… - u mnie działa na karcie Orange, doładowałem ją za 39 zł co daje ważność karty przez rok.”</span>
+        </li>
+        
+        <li id="z18" value="18">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014559328846320&amp;reply_comment_id=4014901982145388" rel="noopener nofollow" target="_blank">odpowiedź z 8.08.2026</a>
+          <span class="excerpt">„Na youtube popełniłem tutorial krok po kroku. Kanał misiekstaszic.”</span>
+        </li>
+        
+        <li id="z19" value="19">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014855918816661&amp;reply_comment_id=4014917752143811" rel="noopener nofollow" target="_blank">odpowiedź z 8.08.2026</a>
+          <span class="excerpt">„masz kwestja który to rocznik i czy da sie kartę wymienić, ja u siebie zrobilem - leaf 2014 tu masz opencarwings.viaaq.eu/…”</span>
+        </li>
+        
+        <li id="z20" value="20">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/" rel="noopener nofollow" target="_blank">post z 1.09.2026</a>
+          <span class="excerpt">„Wygląda na to że temat przywrócenia łączności w nowszych leafach i ENV jest już załatwiony:-) Leafy przed 09/2015 - działa zmiana na karty…”</span>
+        </li>
+        
+        <li id="z21" value="21">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016766118625641&amp;reply_comment_id=4017044575264462" rel="noopener nofollow" target="_blank">odpowiedź z 10.08.2026</a>
+          <span class="excerpt">„poza tym całe koszty karty sim to 39 zł na rok.”</span>
+        </li>
+        
+        <li id="z22" value="22">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4046922482276671/?comment_id=4046923898943196&amp;reply_comment_id=4047190945583158" rel="noopener nofollow" target="_blank">odpowiedź z 10.09.2026</a>
+          <span class="excerpt">„mobile”</span>
+        </li>
+        
+        <li id="z23" value="23">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3909347199367534/?comment_id=3909442266024694" rel="noopener nofollow" target="_blank">komentarz z 18.04.2026</a>
+          <span class="excerpt">„Jeśli to jest karta z czarnym, nie granatowym tłem to nie zadziała. Musisz mieć kartę w wersji Global-1.”</span>
+        </li>
+        
+        <li id="z24" value="24">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3909347199367534/?comment_id=3909442266024694&amp;reply_comment_id=3909792122656375" rel="noopener nofollow" target="_blank">odpowiedź z 19.04.2026</a>
+          <span class="excerpt">„nie zadziała bo to karta global-3. Prawdopodobnie kupiłeś bezpośrednio od holograma. Moduł telematyki leafa nie będzie współpracował z tą…”</span>
+        </li>
+        
+        <li id="z25" value="25">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3935379436764310/?comment_id=3935423756759878" rel="noopener nofollow" target="_blank">komentarz z 16.05.2026</a>
+          <span class="excerpt">„Mam kilka kart po zamówieniu grupowym jeśli potrzeba proszę o priv”</span>
+        </li>
+        
+        <li id="z26" value="26">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3935379436764310/?comment_id=3935423756759878&amp;reply_comment_id=3936474026654851" rel="noopener nofollow" target="_blank">odpowiedź z 17.05.2026</a>
+          <span class="excerpt">„Tomasz Karski2$”</span>
+        </li>
+        
+        <li id="z27" value="27">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/" rel="noopener nofollow" target="_blank">post z 14.01.2026</a>
+          <span class="excerpt">„Edit: rozdysponowane! Karty Hologram do OpenCarwings - 3 sztuki. Mam do odsprzedania trzy karty Hologram do uruchomienia Opencarwings na…”</span>
+        </li>
+        
+        <li id="z28" value="28">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821121711523417&amp;reply_comment_id=3821153384853583" rel="noopener nofollow" target="_blank">odpowiedź z 14.01.2026</a>
+          <span class="excerpt">„zużyjesz danych. Średnio 5 zł / mc wychodzi, z podłączoną też navi, ale to zależy od pokonywanych dystansów.”</span>
+        </li>
+        
+        <li id="z29" value="29">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821303584838563&amp;reply_comment_id=3821987758103479" rel="noopener nofollow" target="_blank">odpowiedź z 15.01.2026</a>
+          <span class="excerpt">„Mam ostatnie 5 kart, po zamówieniu grupowym z wakacji. Potem będę robił listę kolejkową bo muszę zamówić minimum 20 sztuk żeby nie dopłacać…”</span>
+        </li>
+        
+        <li id="z30" value="30">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821140391521549" rel="noopener nofollow" target="_blank">komentarz z 14.01.2026</a>
+          <span class="excerpt">„Uwaga, to działa tylko w autach z carwings o roczniki 2011-09/2015. Wersje od roku modelowego 2016 maja już wbudowane karty SIM, tak samo…”</span>
+        </li>
+        
+        <li id="z31" value="31">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860533687582219/?comment_id=3860546994247555&amp;reply_comment_id=3860659630902958" rel="noopener nofollow" target="_blank">odpowiedź z 24.02.2026</a>
+          <span class="excerpt">„od 09/2015 jest inny moduł tematyki i nawigacja. Carwings nie będzie działać”</span>
+        </li>
+        
+        <li id="z32" value="32">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891320284503559&amp;reply_comment_id=3892389874396600" rel="noopener nofollow" target="_blank">odpowiedź z 30.03.2026</a>
+          <span class="excerpt">„a jaki rok produkcji? Tylko 2011-2015 da radę.”</span>
+        </li>
+        
+        <li id="z33" value="33">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=4018053825163537&amp;reply_comment_id=4018054941830092" rel="noopener nofollow" target="_blank">odpowiedź z 11.08.2026</a>
+          <span class="excerpt">„przez internet liść ma wbudowany moduł gsm”</span>
+        </li>
+        
+        <li id="z34" value="34">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=4018053825163537&amp;reply_comment_id=4018063508495902" rel="noopener nofollow" target="_blank">odpowiedź z 11.08.2026</a>
+          <span class="excerpt">„no trzeba karte wymienić i trochę pokombinowac- kwestia wersji modemu”</span>
+        </li>
+        
+        <li id="z35" value="35">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3843964242572497" rel="noopener nofollow" target="_blank">komentarz z 7.02.2026</a>
+          <span class="excerpt">„Gdyby ktoś szukał instrukcji - youtube.com/…”</span>
+        </li>
+        
+        <li id="z36" value="36">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3843959915906263&amp;reply_comment_id=3843965295905725" rel="noopener nofollow" target="_blank">odpowiedź z 7.02.2026</a>
+          <span class="excerpt">„25zł &#43; koszty wysyłki - najlepiej paczkomat”</span>
+        </li>
+        
+        <li id="z37" value="37">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3843962722572649&amp;reply_comment_id=3844063085895946" rel="noopener nofollow" target="_blank">odpowiedź z 7.02.2026</a>
+          <span class="excerpt">„abonament 1$ miesięcznie &#43;0,19$ za MB danych, z opinii użytkowników ok 6-8 zł miesięcznie Z tego co przetestowałem to działa timer…”</span>
+        </li>
+        
+        <li id="z38" value="38">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3843966049238983&amp;reply_comment_id=3843968815905373" rel="noopener nofollow" target="_blank">odpowiedź z 7.02.2026</a>
+          <span class="excerpt">„krok po kroku - tylko nie odpalałem bez podłączonej kostki od poduszki.”</span>
+        </li>
+        
+        <li id="z39" value="39">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3978122629156657" rel="noopener nofollow" target="_blank">komentarz z 30.06.2026</a>
+          <span class="excerpt">„Hologram dla kart G1 od 1 lipca zmienia cennik. Koszt 1mb danych rośnie dziesięciokrotnie. Czy używackie Opencarwings z jakimiś innymi…”</span>
+        </li>
+        
+        <li id="z40" value="40">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3978122629156657&amp;reply_comment_id=3984413098527610" rel="noopener nofollow" target="_blank">odpowiedź z 6.07.2026</a>
+          <span class="excerpt">„Nie i problem u mnie pojawił się z nadajnikami. teraz hologram (przynajmniej u mnie) nie loguje się do sieci”</span>
+        </li>
+        
+        <li id="z41" value="41">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/?comment_id=3844077309227857&amp;reply_comment_id=3844110032557918" rel="noopener nofollow" target="_blank">odpowiedź z 7.02.2026</a>
+          <span class="excerpt">„Ja będzie działać ale trzeba wzbudzać - nie wiem jak tam się konfiguruje, podobno jakieś SMS trzeba wysłać”</span>
+        </li>
+        
+        <li id="z42" value="42">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703296746639248&amp;reply_comment_id=3703378539964402" rel="noopener nofollow" target="_blank">odpowiedź z 11.09.2025</a>
+          <span class="excerpt">„Ładowanie sie w abonament Hologram jest bez sensu bo mozna użyć dowolnej innej karty. Ja używam Play z abonamentem 3zl”</span>
+        </li>
+        
+        <li id="z43" value="43">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3742513982717524&amp;reply_comment_id=3742531602715762" rel="noopener nofollow" target="_blank">odpowiedź z 20.10.2025</a>
+          <span class="excerpt">„jeszcze kilka kart pisz priv. Można wstawić dowolną kartę ale każdorazowo trzeba ręcznie wysyłać SMS żeby aktywować tcu. Wszystko jest…”</span>
+        </li>
+        
+        <li id="z44" value="44">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3742513982717524&amp;reply_comment_id=3985709055064681" rel="noopener nofollow" target="_blank">odpowiedź z 8.07.2026</a>
+          <span class="excerpt">„Napisałem wyżej, wszystko jest opisane w instrukcji na stronie carwings. Jak zmienisz ustawienia połączenia na manuał to wyświetla się…”</span>
+        </li>
+        
+        <li id="z45" value="45">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703296746639248&amp;reply_comment_id=3703298996639023" rel="noopener nofollow" target="_blank">odpowiedź z 11.09.2025</a>
+          <span class="excerpt">„Najważniejsza różnica to brak konieczności wysyłania ręcznie SMS żeby wzbudzić system. Dodatkowo karty telemetryczne korzystają z…”</span>
+        </li>
+        
+        <li id="z46" value="46">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703296746639248&amp;reply_comment_id=3703417613293828" rel="noopener nofollow" target="_blank">odpowiedź z 11.09.2025</a>
+          <span class="excerpt">„Na pewno korzystanie z Hologram jest wygodniejsze, bo nie trzeba wysyłać za każdym razem SMSa i można skorzystać z odświeżania danych.”</span>
+        </li>
+        
+        <li id="z47" value="47">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703292923306297" rel="noopener nofollow" target="_blank">komentarz z 11.09.2025</a>
+          <span class="excerpt">„Kart IoT bardzo fajne działa 1nce.com - 10eur 10lat/500mb/200sms.”</span>
+        </li>
+        
+        <li id="z48" value="48">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703292923306297&amp;reply_comment_id=3703298976639025" rel="noopener nofollow" target="_blank">odpowiedź z 11.09.2025</a>
+          <span class="excerpt">„wysyłka sms do karty przez api? tak jest help.1nce.com/… Karta działała nawet w Turcji bo mam ją w trackerku do złombolowozu”</span>
+        </li>
+        
+        <li id="z49" value="49">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703292923306297&amp;reply_comment_id=3703312033304386" rel="noopener nofollow" target="_blank">odpowiedź z 11.09.2025</a>
+          <span class="excerpt">„manual to wysyłasz ręcznie SMS aktywujący tcu, webhook musisz mieć link który powoduje wysłanie SMS o konkretnej treści do numeru tcu.…”</span>
+        </li>
+        
+        <li id="z50" value="50">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703285956640327" rel="noopener nofollow" target="_blank">komentarz z 11.09.2025</a>
+          <span class="excerpt">„Cena takiej karty to 30zł z odbiorem we Wrocławiu lub wysyłka 12zl paczkomat, 8zł poczta. Mam kilka kart, kupiłem więcej żeby nie płacić za…”</span>
+        </li>
+        
+        <li id="z51" value="51">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/" rel="noopener nofollow" target="_blank">post z 11.09.2025</a>
+          <span class="excerpt">„Piszę tutaj bo na grupowym czacie umknie, a to moim zdaniem mały game changer dla użytkowników Leafów z systemem Carwings. Temat już gdzieś…”</span>
+        </li>
+        
+        <li id="z52" value="52">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3951355748500012" rel="noopener nofollow" target="_blank">komentarz z 2.06.2026</a>
+          <span class="excerpt">„Uwaga! Hologram oficjalnie zaprzestaje sprzedaży kart Global-1. W związku z tym karty zakupione od niezależnych dystrybutorów mogą nie…”</span>
+        </li>
+        
+        <li id="z53" value="53">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3719890801646509" rel="noopener nofollow" target="_blank">komentarz z 28.09.2025</a>
+          <span class="excerpt">„Szkoda że nigdzie nie było informacji że to rozwiązanie tylko dla wersji z modemem Continental. U mnie inny z wbudowaną kartą SIM. Więc…”</span>
+        </li>
+        
+        <li id="z54" value="54">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3719890801646509&amp;reply_comment_id=3719941214974801" rel="noopener nofollow" target="_blank">odpowiedź z 28.09.2025</a>
+          <span class="excerpt">„jest wszystko dokładnie opisane w instrukcji instalacji i montażu na stronie OpenCARWINGS. Podeślij mi vin auta na priv, jest masz modem 3G…”</span>
+        </li>
+        
+        <li id="z55" value="55">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3743967425905513&amp;reply_comment_id=3743995219236067" rel="noopener nofollow" target="_blank">odpowiedź z 21.10.2025</a>
+          <span class="excerpt">„wszystko jest opisane w instrukcji OpenCARWINGS. Jeśli masz auto z systemem Carwings z eu/usa to powinno działać ale polecam jednak…”</span>
+        </li>
+        
+        <li id="z56" value="56">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3703635133272076&amp;reply_comment_id=3703636746605248" rel="noopener nofollow" target="_blank">odpowiedź z 11.09.2025</a>
+          <span class="excerpt">„być konieczna zmiana tcu na wersje europejską lub zmiana adresu serwera na europejski”</span>
+        </li>
+        
+        <li id="z57" value="57">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704719149830341&amp;reply_comment_id=3715362728765983" rel="noopener nofollow" target="_blank">odpowiedź z 23.09.2025</a>
+          <span class="excerpt">„czytałeś dokładnie instrukcje zmiany oprogramowania nawigacji? Osobno zmienia się dane TCU, jako drugi krok jest zabawa z kartami SD i…”</span>
+        </li>
+        
+        <li id="z58" value="58">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704719149830341&amp;reply_comment_id=3720422474926675" rel="noopener nofollow" target="_blank">odpowiedź z 29.09.2025</a>
+          <span class="excerpt">„opencarwings.viaaq.eu/…”</span>
+        </li>
+        
+        <li id="z59" value="59">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704739713161618&amp;reply_comment_id=3720433234925599" rel="noopener nofollow" target="_blank">odpowiedź z 29.09.2025</a>
+          <span class="excerpt">„Wiem wiem. Ale problem był po stronie samego oprogramowania TCU. Zrobiłem flash i już działa. Trochę zabawy jest z podmianami kart sd.”</span>
+        </li>
+        
+        <li id="z60" value="60">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3695237340778522/?comment_id=3695906657378257&amp;reply_comment_id=3696835063952083" rel="noopener nofollow" target="_blank">odpowiedź z 4.09.2025</a>
+          <span class="excerpt">„To jest hyba hasło używane później do konfiguracji komunikacji, podaj jakieś proste do wpisania z klawiatury dotykowj auta. Ono i tak chyba…”</span>
+        </li>
+        
+        <li id="z61" value="61">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704719149830341&amp;reply_comment_id=3704759573159632" rel="noopener nofollow" target="_blank">odpowiedź z 12.09.2025</a>
+          <span class="excerpt">„je sam przy rejestracji. To hasło które potem wpiszesz w nawigacji”</span>
+        </li>
+        
+        <li id="z62" value="62">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/?comment_id=3704719149830341&amp;reply_comment_id=3715288932106696" rel="noopener nofollow" target="_blank">odpowiedź z 23.09.2025</a>
+          <span class="excerpt">„Wiemy ale i tak nie łączy 😁 chyba od nowa założę konto i dam dłuższe hasło bo 1111 nie przeszło widocznie 😅”</span>
+        </li>
+        
+        <li id="z63" value="63">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/" rel="noopener nofollow" target="_blank">post z 10.11.2025</a>
+          <span class="excerpt">„Wideo-instrukcja wskrzeszenia usług on-line (CarWings) dla Leafów I”</span>
+        </li>
+        
+        <li id="z64" value="64">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3793604864275102/" rel="noopener nofollow" target="_blank">post z 14.12.2025</a>
+          <span class="excerpt">„Witam polecam obejrzeć materiał jak przywrócić zdalny dostęp do auta Pozdrawiam”</span>
+        </li>
+        
+        <li id="z65" value="65">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3796479127321009/" rel="noopener nofollow" target="_blank">post z 17.12.2025</a>
+          <span class="excerpt">„Druga część myślę że warto zobaczyć. Pozdrawiam.”</span>
+        </li>
+        
+        <li id="z66" value="66">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3796479127321009/?comment_id=3797434473892141" rel="noopener nofollow" target="_blank">komentarz z 18.12.2025</a>
+          <span class="excerpt">„Polecam, 30 min roboty, koszty śmieszne.”</span>
+        </li>
+        
+        <li id="z67" value="67">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3731178627184393/" rel="noopener nofollow" target="_blank">post z 9.10.2025</a>
+          <span class="excerpt">„Oświetlenie schowka naprawione, po prostu trzeba było wymienić żarówkę. Zrobiłem przy okazji montowania karty sim do carwingsa, jest wtedy…”</span>
+        </li>
+        
+        <li id="z68" value="68">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3731178627184393/?comment_id=3731189577183298&amp;reply_comment_id=3731316643837258" rel="noopener nofollow" target="_blank">odpowiedź z 9.10.2025</a>
+          <span class="excerpt">„Krzysiek tu masz wszystko, jest film widać dokładnie opencarwings.viaaq.eu/…”</span>
+        </li>
+        
+        <li id="z69" value="69">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3764577983844457&amp;reply_comment_id=3765097597125829" rel="noopener nofollow" target="_blank">odpowiedź z 12.11.2025</a>
+          <span class="excerpt">„zostało mi kilka sztuk po zamówieniu grupowym, pisz priv.”</span>
+        </li>
+        
+        <li id="z70" value="70">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3766269810341941/?comment_id=3766308013671454&amp;reply_comment_id=3766316173670638" rel="noopener nofollow" target="_blank">odpowiedź z 13.11.2025</a>
+          <span class="excerpt">„trochę ustawien karta od kolegi z grupy z sieci hologram i opencarwings.viaaq.eu”</span>
+        </li>
+        
+        <li id="z71" value="71">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763522683949987" rel="noopener nofollow" target="_blank">komentarz z 10.11.2025</a>
+          <span class="excerpt">„Fajny film. Ja zrobiłem na podstawie jakiegoś zagranicznego filmiku. U mnie działa na SIM z Orange za 5zl starter ale komendy wysyła się…”</span>
+        </li>
+        
+        <li id="z72" value="72">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/?comment_id=3760312364271019&amp;reply_comment_id=3760324610936461" rel="noopener nofollow" target="_blank">odpowiedź z 7.11.2025</a>
+          <span class="excerpt">„są różne wersje tego adaptera. Z uboższąelektroniką nie zadziała. Mój w końcu się polączył”</span>
+        </li>
+        
+        <li id="z73" value="73">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/?comment_id=3760312364271019&amp;reply_comment_id=3760358854266370" rel="noopener nofollow" target="_blank">odpowiedź z 7.11.2025</a>
+          <span class="excerpt">„w takiej samej obudowie jest kilka różnych modeli. Z mojego doświadczenia wynika, że działają te, które mają w środku dwie płytki z…”</span>
+        </li>
+        
+        <li id="z74" value="74">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/?comment_id=3760443537591235" rel="noopener nofollow" target="_blank">komentarz z 7.11.2025</a>
+          <span class="excerpt">„Proszę szukać adapterów z chipem PIC18F25K80. Niestety w tej samej obudowie kryją się różne wersje elm. Sam szukam teraz kilku sztuk i…”</span>
+        </li>
+        
+        <li id="z75" value="75">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/?comment_id=3760443537591235&amp;reply_comment_id=3760450234257232" rel="noopener nofollow" target="_blank">odpowiedź z 7.11.2025</a>
+          <span class="excerpt">„tylko ta aplikacja. Może masz w tle uruchomioną jakąś inną aplikację?”</span>
+        </li>
+        
+        <li id="z76" value="76">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3752582715043984/?comment_id=3752587115043544&amp;reply_comment_id=3752597928375796" rel="noopener nofollow" target="_blank">odpowiedź z 30.10.2025</a>
+          <span class="excerpt">„Sytuację ratuje OpenCarwings, i włączenie ogrzewania telefonem 15 minut przed wyjściem.”</span>
+        </li>
+        
+        <li id="z77" value="77">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3796073520694903/?comment_id=3796283347340587" rel="noopener nofollow" target="_blank">komentarz z 17.12.2025</a>
+          <span class="excerpt">„Ja mam zrobione opencarwings (na forum było jak zrobić) tam uruchamianie grzania jest zdalne z poziomu tel.. Włączam ok 5-10 min przed…”</span>
+        </li>
+        
+        <li id="z78" value="78">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014855918816661&amp;reply_comment_id=4015788232056763" rel="noopener nofollow" target="_blank">odpowiedź z 9.08.2026</a>
+          <span class="excerpt">„soft nie jest w stanie przywrócić infrastruktury ale modem 3g działa też na 2g a ta działa (3g w większości jeszcze też) To Nissan wybiegł…”</span>
+        </li>
+        
+        <li id="z79" value="79">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016766118625641&amp;reply_comment_id=4017043588597894" rel="noopener nofollow" target="_blank">odpowiedź z 10.08.2026</a>
+          <span class="excerpt">„tego co czytam, to modem w ze0 jest 2G, więc jeszcze trochę podziała”</span>
+        </li>
+        
+        <li id="z80" value="80">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4038860299749556&amp;reply_comment_id=4038908079744778" rel="noopener nofollow" target="_blank">odpowiedź z 2.09.2026</a>
+          <span class="excerpt">„2G nie wyłączą jeszcze masę lat - bo to jest core, m.in dla LTE &#43; bo telematyka wielu różnych dziedzin na tym lata. 3G iowszem, wyłączają…”</span>
+        </li>
+        
+        <li id="z81" value="81">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4024495364519383/?comment_id=4024559347846318&amp;reply_comment_id=4025091331126453" rel="noopener nofollow" target="_blank">odpowiedź z 19.08.2026</a>
+          <span class="excerpt">„Działa w polifcie do roku modelowego 2016. W nowszych autach część opcji już działa ale wymaga lutowania złącza na SIM lub karty SIM w…”</span>
+        </li>
+        
+        <li id="z82" value="82">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4024495364519383/?comment_id=4024559347846318&amp;reply_comment_id=4025315674437352" rel="noopener nofollow" target="_blank">odpowiedź z 19.08.2026</a>
+          <span class="excerpt">„szyfrowanie już rozwiązane - problemem jest binarny sms którego hologram nie wspiera. Aktualnie lecą testy na modemach USB”</span>
+        </li>
+        
+        <li id="z83" value="83">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4039126036389649" rel="noopener nofollow" target="_blank">komentarz z 2.09.2026</a>
+          <span class="excerpt">„Nie wiem, czy dobrze zrozumiałem sytuację: nowsze (2016 -&gt; ) Leafy wymagają binarnych SMSów do komunikacji. Hologram tego nie wspiera, więc…”</span>
+        </li>
+        
+        <li id="z84" value="84">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/" rel="noopener nofollow" target="_blank">post z 12.09.2026</a>
+          <span class="excerpt">„NissanConnect AZE0 30 kWh &#43; ZE1 40 kWh Jest już nowy sposób na przywrócenie dostępu do aplikacji dla LEAFów 30 kWh, 40 kWh oraz e-NV200. Po…”</span>
+        </li>
+        
+        <li id="z85" value="85">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4058927747742811" rel="noopener nofollow" target="_blank">komentarz z 22.09.2026</a>
+          <span class="excerpt">„Czy może ktoś szczegółowo - a nie ogólnie jak w opisie sklepu - napisać jak to działa i co trzeba dodatkowo oprócz przeprogramowanego…”</span>
+        </li>
+        
+        <li id="z86" value="86">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4058927747742811&amp;reply_comment_id=4061641747471411" rel="noopener nofollow" target="_blank">odpowiedź z 25.09.2026</a>
+          <span class="excerpt">„zamówiłem z tej strony TCU. Masz instrukcje na filmie jak go podmienić. Paczka przychodzi z kartką co w jakiej kolejności należy wykonać.…”</span>
+        </li>
+        
+        <li id="z87" value="87">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/?comment_id=4058927747742811&amp;reply_comment_id=4061760820792837" rel="noopener nofollow" target="_blank">odpowiedź z 25.09.2026</a>
+          <span class="excerpt">„opencarwings - też jest kod qr dołączony ogólnie ciężko coś popsuć. Tak zamówiłem już zaprogramowany tcu.”</span>
+        </li>
+        
+        <li id="z88" value="88">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4038963853072534&amp;reply_comment_id=4038990929736493" rel="noopener nofollow" target="_blank">odpowiedź z 2.09.2026</a>
+          <span class="excerpt">„zamawiasz od nich gotowy cpu i tylko robisz przekładkę. Jak odeślesz im swój to zwracają Ci 50%”</span>
+        </li>
+        
+        <li id="z89" value="89">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4062028644099388/?comment_id=4062060900762829" rel="noopener nofollow" target="_blank">komentarz z 25.09.2026</a>
+          <span class="excerpt">„Każdy serwis telefonów komórkowych lub taksometrów, caraudio, GPS. Można też wysłać do serwisu viaaq gdzie zrobią to wysyłkowo z kartą za…”</span>
+        </li>
+        
+        <li id="z90" value="90">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4062028644099388/?comment_id=4062060900762829&amp;reply_comment_id=4062068727428713" rel="noopener nofollow" target="_blank">odpowiedź z 25.09.2026</a>
+          <span class="excerpt">„Wyszło jakieś 300zl z przesyłkami.”</span>
+        </li>
+        
+        <li id="z91" value="91">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3979487355686851&amp;reply_comment_id=3979496872352566" rel="noopener nofollow" target="_blank">odpowiedź z 1.07.2026</a>
+          <span class="excerpt">„OVMS. Jeśli wykosztujesz się na oryginał, to wydaje się, że większość funkcji będzie działać. OpenCar Wings po 2016 to loteria. Z drugiej…”</span>
+        </li>
+        
+        <li id="z92" value="92">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4046922482276671/?comment_id=4046923898943196&amp;reply_comment_id=4047170668918519" rel="noopener nofollow" target="_blank">odpowiedź z 10.09.2026</a>
+          <span class="excerpt">„2013 działa spoko 2016-19 trochę bardziej upierdliwe ale za to ma więcej funkcji”</span>
+        </li>
+        
+        <li id="z93" value="93">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4038963853072534&amp;reply_comment_id=4039124039723182" rel="noopener nofollow" target="_blank">odpowiedź z 2.09.2026</a>
+          <span class="excerpt">„mikrofon nie działa w zestawie głośnomówiącym”</span>
+        </li>
+        
+        <li id="z94" value="94">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/?comment_id=3938178109817776" rel="noopener nofollow" target="_blank">komentarz z 19.05.2026</a>
+          <span class="excerpt">„tam jest najprawdoboniej esim. github.com/… w tym watku mas wymieszane pozniej L1 i wczesne L2 niesetty”</span>
+        </li>
+        
+        <li id="z95" value="95">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/?comment_id=3938185406483713" rel="noopener nofollow" target="_blank">komentarz z 19.05.2026</a>
+          <span class="excerpt">„Trzeba wylutowac e SIM i wlutowac tackę. Na razie nie ma jeszcze pełnej funkcjonalności, wszystko jest w linku wstawionym przez Marcina.”</span>
+        </li>
+        
+        <li id="z96" value="96">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/?comment_id=3938178109817776&amp;reply_comment_id=3938849979750589" rel="noopener nofollow" target="_blank">odpowiedź z 20.05.2026</a>
+          <span class="excerpt">„Poczytałem, dzięki. Oprócz problemów z komunikacją jest jeszcze problem z samą siecią - wygląda na to, że to TCU ma tylko 3G, które i tak…”</span>
+        </li>
+        
+        <li id="z97" value="97">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/?comment_id=3941015712867349&amp;reply_comment_id=3942182686083985" rel="noopener nofollow" target="_blank">odpowiedź z 23.05.2026</a>
+          <span class="excerpt">„wygląda to, że ten modem pracuje w technologii 3g, która jest wygaszana w Polsce. To jest największy problem. Nad resztą chłopaki nadal…”</span>
+        </li>
+        
+        <li id="z98" value="98">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3913488182286769/?comment_id=3913489535619967&amp;reply_comment_id=3913503488951905" rel="noopener nofollow" target="_blank">odpowiedź z 23.04.2026</a>
+          <span class="excerpt">„youtube.com/…:-) niemniej społeczności udało się już uruchomić np telematyke (nawigacje) prace trwają nad przywróceniem możliwości…”</span>
+        </li>
+        
+        <li id="z99" value="99">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3910707385898182/?comment_id=3910747192560868&amp;reply_comment_id=3910787369223517" rel="noopener nofollow" target="_blank">odpowiedź z 20.04.2026</a>
+          <span class="excerpt">„opcja na podłączenie nawigacji do sieci, nadal trwa praca nad wysyłaniem komend do telematyki”</span>
+        </li>
+        
+        <li id="z100" value="100">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523" rel="noopener nofollow" target="_blank">komentarz z 29.03.2026</a>
+          <span class="excerpt">„Wygląda, ze lada moment OpenCarWings będzie działać. Tylko szybka akcja lutowania w TCU żeby wlutowac slot na kartę sim zamiast chipa z esim”</span>
+        </li>
+        
+        <li id="z101" value="101">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523&amp;reply_comment_id=3891309864504601" rel="noopener nofollow" target="_blank">odpowiedź z 29.03.2026</a>
+          <span class="excerpt">„nawet prosciej bo wyglada ze TCU sa pady pod slot na sim i pod proca z esim.”</span>
+        </li>
+        
+        <li id="z102" value="102">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523&amp;reply_comment_id=3891310507837870" rel="noopener nofollow" target="_blank">odpowiedź z 29.03.2026</a>
+          <span class="excerpt">„github.com/…”</span>
+        </li>
+        
+        <li id="z103" value="103">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523&amp;reply_comment_id=3891615951140659" rel="noopener nofollow" target="_blank">odpowiedź z 29.03.2026</a>
+          <span class="excerpt">„github.com/… w ostatnim wpisie sprzed godziny wygląda, ze jest potwierdzenie działania.”</span>
+        </li>
+        
+        <li id="z104" value="104">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891303977838523&amp;reply_comment_id=3891484624487125" rel="noopener nofollow" target="_blank">odpowiedź z 29.03.2026</a>
+          <span class="excerpt">„a to nie bedize czasem wersja z USA? Slot na SIM znajduje sie w TCU a nie w radiu.”</span>
+        </li>
+        
+        <li id="z105" value="105">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891320284503559&amp;reply_comment_id=3891605414475046" rel="noopener nofollow" target="_blank">odpowiedź z 29.03.2026</a>
+          <span class="excerpt">„chyba nie masz świadomości, że patent z opencarwings w nowszych wersjach nie wchodzi w rachubę z racji braku możliwości wymiany karty sim w…”</span>
+        </li>
+        
+        <li id="z106" value="106">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851222911846630&amp;reply_comment_id=3960334147602172" rel="noopener nofollow" target="_blank">odpowiedź z 11.06.2026</a>
+          <span class="excerpt">„zależy od modułu telematyki jeśli jest slot to łatwo a jeśli nie to trzeba lutować kartę”</span>
+        </li>
+        
+        <li id="z107" value="107">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/" rel="noopener nofollow" target="_blank">post z 7.03.2026</a>
+          <span class="excerpt">„Open Vehicle Monitoring System Wszyscy już pewnie wiedzą o kolejnej transzy wyłączeń telemetrii w Nissanach. Pogrom modemów 2g mnie ominął,…”</span>
+        </li>
+        
+        <li id="z108" value="108">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870903866545201" rel="noopener nofollow" target="_blank">komentarz z 7.03.2026</a>
+          <span class="excerpt">„[osoba] pisał w zeszłym tygodniu, ze trwają prace nad adopcją późnych L1/wczesnych L2 do OpenCarWings. Wydaje mi się/mam nadzieję, ze może…”</span>
+        </li>
+        
+        <li id="z109" value="109">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3979487355686851&amp;reply_comment_id=3983935341908719" rel="noopener nofollow" target="_blank">odpowiedź z 6.07.2026</a>
+          <span class="excerpt">„Waldemar StarkHej, możesz rozwinąć tą loterię bo właśnie temat przerabiam- Mam aze0 z 2016 30Kw gdzie wlutowałem tackę sim, włożyłem kartę…”</span>
+        </li>
+        
+        <li id="z110" value="110">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860854434216811/?comment_id=3860862424216012" rel="noopener nofollow" target="_blank">komentarz z 24.02.2026</a>
+          <span class="excerpt">„Samochód i konto musisz dodać online na pl.nissanconnect.eu ale wsparcie będzie max. do końca miesiąca bo Nissan wycofuje się z Connect EV.…”</span>
+        </li>
+        
+        <li id="z111" value="111">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3908452596123661/?comment_id=3908476309454623" rel="noopener nofollow" target="_blank">komentarz z 17.04.2026</a>
+          <span class="excerpt">„Sprawdź czy nas dobrze device id i api wpisane z holograma”</span>
+        </li>
+        
+        <li id="z112" value="112">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498" rel="noopener nofollow" target="_blank">komentarz z 19.08.2026</a>
+          <span class="excerpt">„Sprawdź na spokojnie jeszcze raz konfigurację (TCU ID itp) pod kątem literówek i/lub spacji przed oraz po numerach. Zwróć uwagę na…”</span>
+        </li>
+        
+        <li id="z113" value="113">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498&amp;reply_comment_id=4025408284428091" rel="noopener nofollow" target="_blank">odpowiedź z 19.08.2026</a>
+          <span class="excerpt">„Nie, bez myślników jest ok. TCU ID &#43; NAVI ID &#43; API key &#43; Device ID - muszą być poprawne. A nie pomyliłeś przypadkiem Device ID z SIM ID…”</span>
+        </li>
+        
+        <li id="z114" value="114">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498&amp;reply_comment_id=4025427331092853" rel="noopener nofollow" target="_blank">odpowiedź z 19.08.2026</a>
+          <span class="excerpt">„dzięki kolego za rady, usunąłem pojazd z carwings i wpisywałem na nowo wszystko ręcznie bez wklejania i poszło, wszystko działa, jeszcze…”</span>
+        </li>
+        
+        <li id="z115" value="115">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/?comment_id=4025377547764498&amp;reply_comment_id=4025452884423631" rel="noopener nofollow" target="_blank">odpowiedź z 19.08.2026</a>
+          <span class="excerpt">„To cieszy, niech śmiga:) Tam jedna niepotrzebna spacja potrafi posadzić wszystko, niestety.”</span>
+        </li>
+        
+        <li id="z116" value="116">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821976034771318&amp;reply_comment_id=3821988511436737" rel="noopener nofollow" target="_blank">odpowiedź z 15.01.2026</a>
+          <span class="excerpt">„API key ustawiony? Bo SMS powinien się wysłać niezależnie czy karta leży na biurku, czy jest w aucie 🧀🙂”</span>
+        </li>
+        
+        <li id="z117" value="117">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821976034771318&amp;reply_comment_id=3821996704769251" rel="noopener nofollow" target="_blank">odpowiedź z 15.01.2026</a>
+          <span class="excerpt">„dobra, głupio mi przyznać, ale źle włożyłem kartę 😅”</span>
+        </li>
+        
+        <li id="z118" value="118">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016766118625641&amp;reply_comment_id=4016774361958150" rel="noopener nofollow" target="_blank">odpowiedź z 10.08.2026</a>
+          <span class="excerpt">„odepnij Aku na 5 minut.”</span>
+        </li>
+        
+        <li id="z119" value="119">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/?comment_id=3821976034771318&amp;reply_comment_id=3822239738078281" rel="noopener nofollow" target="_blank">odpowiedź z 15.01.2026</a>
+          <span class="excerpt">„ale właściwie to nadal nie działa zdalne włączanie A/C, mimo, że już działa open carwings, pokazuje stan baterii, lokalizacje itp. Może…”</span>
+        </li>
+        
+        <li id="z120" value="120">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3840454019590186/?comment_id=3840463296255925" rel="noopener nofollow" target="_blank">komentarz z 3.02.2026</a>
+          <span class="excerpt">„To normalne, timery działają tylko przy podłączonym aucie. Jeżeli wóz jest niepodłączony to możesz uruchomić ogrzewanie zdalnie (jeżeli…”</span>
+        </li>
+        
+        <li id="z121" value="121">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3840454019590186/?comment_id=3840849552883966" rel="noopener nofollow" target="_blank">komentarz z 4.02.2026</a>
+          <span class="excerpt">„Bo tak ma być - z timera grzeje tylko jak ma wpięty kabel - inaczej po kilku dniach mógłby się rozładować. Z aplikacji start ogrzewania…”</span>
+        </li>
+        
+        <li id="z122" value="122">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3829572990678289/?comment_id=3832749647027290" rel="noopener nofollow" target="_blank">komentarz z 26.01.2026</a>
+          <span class="excerpt">„U mnie problem sie rozwiazal po ustawieniu ostatniej opcji czyli custom opencarwings. Co ciekawe wszystkie trasy od momentu zainstalowania…”</span>
+        </li>
+        
+        <li id="z123" value="123">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3782954612006794/?comment_id=3783246955310893" rel="noopener nofollow" target="_blank">komentarz z 2.12.2025</a>
+          <span class="excerpt">„U mnie działa, ale koledzy z grupy mieli podobny problem - jednemu pomogło usunięcie i ponowne dodanie auta, drugiemu reset 12v w aucie.”</span>
+        </li>
+        
+        <li id="z124" value="124">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3782954612006794/?comment_id=3783246955310893&amp;reply_comment_id=3784054291896826" rel="noopener nofollow" target="_blank">odpowiedź z 3.12.2025</a>
+          <span class="excerpt">„mam i tcu i nawigację podłączoną. Czy jest to związane z błędem, nie wiem. Polecam jednak podłączyć oba urządzenia, bo nawigacja przesyła…”</span>
+        </li>
+        
+        <li id="z125" value="125">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3805872459715009/?comment_id=3806328623002726" rel="noopener nofollow" target="_blank">komentarz z 29.12.2025</a>
+          <span class="excerpt">„Spróbuj zresetować TCU - to tak na początek. Odłącz wiązkę elektryczną od niego na kilka minut, lub aku 12V zgodnie ze sztuką (odczekaj 3…”</span>
+        </li>
+        
+        <li id="z126" value="126">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3805872459715009/?comment_id=3806328623002726&amp;reply_comment_id=3824158234553098" rel="noopener nofollow" target="_blank">odpowiedź z 18.01.2026</a>
+          <span class="excerpt">„reset przez akumulator nie pomógł. Jakieś inne opcje?”</span>
+        </li>
+        
+        <li id="z127" value="127">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3751801881788734/?comment_id=3752186675083588&amp;reply_comment_id=3752231715079084" rel="noopener nofollow" target="_blank">odpowiedź z 30.10.2025</a>
+          <span class="excerpt">„Owszem działa ustawieni czasu przez menu serwisowe ale też podejrzewam, że za pól roku będzie to samo. Mam openCarwings czas pokazuje…”</span>
+        </li>
+        
+        <li id="z128" value="128">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/?comment_id=4016979661937620&amp;reply_comment_id=4017041655264754" rel="noopener nofollow" target="_blank">odpowiedź z 10.08.2026</a>
+          <span class="excerpt">„mam USA 2013. Tylko lokalizację pokazuje w Kalifornii”</span>
+        </li>
+        
+        <li id="z129" value="129">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4016159352019651&amp;reply_comment_id=4016759995292920" rel="noopener nofollow" target="_blank">odpowiedź z 10.08.2026</a>
+          <span class="excerpt">„drążyłem temat. A nawet wystarczyłoby, żeby pokazywał prawidłową pozycję GPS w opencarwings. Nie do zrobienia bez wymiany całej stacji…”</span>
+        </li>
+        
+        <li id="z130" value="130">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3812055362430052/?comment_id=3812070619095193" rel="noopener nofollow" target="_blank">komentarz z 4.01.2026</a>
+          <span class="excerpt">„Wersja USA samochod sprowadzony dlatego tak pokazuje. Całość do przeprogramowania navi i radio. Sprawdź jescze czy masz w radiu dziesiąte…”</span>
+        </li>
+        
+        <li id="z131" value="131">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3933515693617351/?comment_id=3933545066947747&amp;reply_comment_id=3933553856946868" rel="noopener nofollow" target="_blank">odpowiedź z 14.05.2026</a>
+          <span class="excerpt">„[osoba], pisałem że z USA. Niestety iak czytam to raczej bez wymiany radia się nie da, a nawet jak się wymieni to trzeba kombinować z…”</span>
+        </li>
+        
+        <li id="z132" value="132">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3493210357647889/?comment_id=3493211384314453" rel="noopener nofollow" target="_blank">komentarz z 18.01.2025</a>
+          <span class="excerpt">„Ovms”</span>
+        </li>
+        
+        <li id="z133" value="133">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3493210357647889/?comment_id=3493211467647778" rel="noopener nofollow" target="_blank">komentarz z 18.01.2025</a>
+          <span class="excerpt">„Ovms”</span>
+        </li>
+        
+        <li id="z134" value="134">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3493210357647889/?comment_id=3493211384314453&amp;reply_comment_id=3493239637644961" rel="noopener nofollow" target="_blank">odpowiedź z 18.01.2025</a>
+          <span class="excerpt">„niestety ze1 nie działa tak o wymaga to wielu modów”</span>
+        </li>
+        
+        <li id="z135" value="135">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3686823141619942/?comment_id=3686838051618451" rel="noopener nofollow" target="_blank">komentarz z 24.08.2025</a>
+          <span class="excerpt">„To zależy którego. docs.openvehicles.com/… masz dokumentację”</span>
+        </li>
+        
+        <li id="z136" value="136">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3218562685112659/?comment_id=3218564465112481&amp;reply_comment_id=3218992428403018" rel="noopener nofollow" target="_blank">odpowiedź z 2.01.2024</a>
+          <span class="excerpt">„wymaga to zbudowania nowej wiązki obd i podania 2 linii can jednej z vcm drugiej z ev can i dopiero podłączenia ovms”</span>
+        </li>
+        
+        <li id="z137" value="137">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3218562685112659/?comment_id=3218564465112481&amp;reply_comment_id=3218992825069645" rel="noopener nofollow" target="_blank">odpowiedź z 2.01.2024</a>
+          <span class="excerpt">„na forum ovms masz opis co skąd i dokąd pociągnąć, trzeba nowy port obd zbudować na potrzeby ovms”</span>
+        </li>
+        
+        <li id="z138" value="138">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/?comment_id=3222915591344035&amp;reply_comment_id=3222918721343722" rel="noopener nofollow" target="_blank">odpowiedź z 9.01.2024</a>
+          <span class="excerpt">„masz dużo danych, zarządzanie, lokalizacja plus mega dużo opcji jak jmiesz programować to jest soft open source a działa z wieloma bev. Dla…”</span>
+        </li>
+        
+        <li id="z139" value="139">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/?comment_id=3222915591344035&amp;reply_comment_id=3222924248009836" rel="noopener nofollow" target="_blank">odpowiedź z 9.01.2024</a>
+          <span class="excerpt">„To pasuje do az0 i aze0 wymaga trochę roboty przy montażu i trochę programowania (podstawowa konfiguracja przez www) Niestety nowy leaf ze1…”</span>
+        </li>
+        
+        <li id="z140" value="140">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437" rel="noopener nofollow" target="_blank">komentarz z 8.03.2026</a>
+          <span class="excerpt">„Jestem użytkownikiem OVMS od roku czyli od początku używania Leafa. Zamawiałem z UK i oczywiscie była odprawa celna i należności celne…”</span>
+        </li>
+        
+        <li id="z141" value="141">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3879758682326386" rel="noopener nofollow" target="_blank">komentarz z 17.03.2026</a>
+          <span class="excerpt">„Kupowałem OVMS w lutym, 214GBP cło 240zł. Funkcjonalności tak jak koledzy pisali. W konfigurowaniu bardzo mi pomogło AI, konkretnie Gemini.…”</span>
+        </li>
+        
+        <li id="z142" value="142">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3830851647217090/?comment_id=3831804843788437&amp;reply_comment_id=3879741925661395" rel="noopener nofollow" target="_blank">odpowiedź z 17.03.2026</a>
+          <span class="excerpt">„Dzięki za odpowiedź. Kupiłem OVMS, trochę z cłem było zabawy. Działa fajnie tylko często rozłącza połączenie przez GSM i nie wiem dlaczego,…”</span>
+        </li>
+        
+        <li id="z143" value="143">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/?comment_id=3222915591344035&amp;reply_comment_id=3222952861340308" rel="noopener nofollow" target="_blank">odpowiedź z 9.01.2024</a>
+          <span class="excerpt">„tak myślałem. Waham się nad tym ovms 1.3k pln to sporo kasy, ciężko będzie żonie wytłumaczyć że auto tego potrzebuje 😂”</span>
+        </li>
+        
+        <li id="z144" value="144">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/?comment_id=3222915591344035&amp;reply_comment_id=3222954534673474" rel="noopener nofollow" target="_blank">odpowiedź z 9.01.2024</a>
+          <span class="excerpt">„mi 48 cla dosłownie do dopłaty przy dostawie. Ale sprzęt super i daje dużo możliwości”</span>
+        </li>
+        
+        <li id="z145" value="145">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254003201568607/?comment_id=3254004314901829&amp;reply_comment_id=3254005534901707" rel="noopener nofollow" target="_blank">odpowiedź z 28.02.2024</a>
+          <span class="excerpt">„jest nazywa się OVMS:-)”</span>
+        </li>
+        
+        <li id="z146" value="146">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3389017238067202/?comment_id=3389189681383291&amp;reply_comment_id=3389308044704788" rel="noopener nofollow" target="_blank">odpowiedź z 12.09.2024</a>
+          <span class="excerpt">„z tego co udało mi się wyczytać urządzenie kosztuje prawie 1000zł i będę mógł zdalnie włączać ogrzewanie tylko podczas ładowania auta.…”</span>
+        </li>
+        
+        <li id="z147" value="147">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3460374820931443/?comment_id=3460387354263523" rel="noopener nofollow" target="_blank">komentarz z 4.12.2024</a>
+          <span class="excerpt">„tak da się sterować aplikacją OVMS trzeba kupić moduł najlepiej lte 4G. Ja korzystam i jest super, działa bez podłączenia samochodu do…”</span>
+        </li>
+        
+        <li id="z148" value="148">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3274068242895436/?comment_id=3275660102736250&amp;reply_comment_id=3275673589401568" rel="noopener nofollow" target="_blank">odpowiedź z 3.04.2024</a>
+          <span class="excerpt">„ja używam ovms”</span>
+        </li>
+        
+        <li id="z149" value="149">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3274068242895436/?comment_id=3275660102736250&amp;reply_comment_id=3279272482375012" rel="noopener nofollow" target="_blank">odpowiedź z 9.04.2024</a>
+          <span class="excerpt">„tak sim.z play”</span>
+        </li>
+        
+        <li id="z150" value="150">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340&amp;reply_comment_id=3329780143990912" rel="noopener nofollow" target="_blank">odpowiedź z 25.06.2024</a>
+          <span class="excerpt">„zdaję się że tam na stronie było napisane żeby odłączyć tcu🤔 Karta pewnie dobrze byłoby żeby nie miała pinu.”</span>
+        </li>
+        
+        <li id="z151" value="151">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340&amp;reply_comment_id=3483056058663319" rel="noopener nofollow" target="_blank">odpowiedź z 4.01.2025</a>
+          <span class="excerpt">„wpisać DNS do modemu, Tak aby działała karta z Play. Bo APN: Play, username: nic nie wpisuje password: też nic nie wpisuje. Ale nie wiem…”</span>
+        </li>
+        
+        <li id="z152" value="152">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3460374820931443/?comment_id=3460393090929616" rel="noopener nofollow" target="_blank">komentarz z 4.12.2024</a>
+          <span class="excerpt">„Też miałem ten problem. Zamontowałem OVMS cała zabawa może z 2 godziny. Do tego zamawiasz Data-sim od swojego operatora w moim przypadku 29…”</span>
+        </li>
+        
+        <li id="z153" value="153">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3830851647217090/?comment_id=3831804843788437" rel="noopener nofollow" target="_blank">komentarz z 25.01.2026</a>
+          <span class="excerpt">„Ja mam w roczniku 2015, można limit ładowania dać jaki się chce, oraz włączać ogrzewanie,klimę bez podpiętego kabla.”</span>
+        </li>
+        
+        <li id="z154" value="154">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437&amp;reply_comment_id=3871164506519137" rel="noopener nofollow" target="_blank">odpowiedź z 8.03.2026</a>
+          <span class="excerpt">„ja ovms mialem w kilku aze0 w każdym działa ok otwiera drzwi zdalnie zamyka klimatyzacji bez ładowarki wpięte, i wiele innych danych mozna…”</span>
+        </li>
+        
+        <li id="z155" value="155">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3871378616497726" rel="noopener nofollow" target="_blank">komentarz z 8.03.2026</a>
+          <span class="excerpt">„Mam też w aze0. Można otworzyć i zamknąć auto. Można włączyć grzanie lub chłodzenie nawet w aucie nie wpiętym do ładowarki, kontrolować…”</span>
+        </li>
+        
+        <li id="z156" value="156">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/?comment_id=3254016588233935&amp;reply_comment_id=3254191288216465" rel="noopener nofollow" target="_blank">odpowiedź z 28.02.2024</a>
+          <span class="excerpt">„jest lokalizacja, opis funkcji na stronie znajdziesz. Ja mam zamontowane za radiem wpina w obd port bo mam 2;)”</span>
+        </li>
+        
+        <li id="z157" value="157">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/?comment_id=3254045814897679&amp;reply_comment_id=3254327768202817" rel="noopener nofollow" target="_blank">odpowiedź z 28.02.2024</a>
+          <span class="excerpt">„mogę załączyć i wyłączyć ładowanie, to samo z klimą”</span>
+        </li>
+        
+        <li id="z158" value="158">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254003201568607/?comment_id=3254055511563376&amp;reply_comment_id=3254126924889568" rel="noopener nofollow" target="_blank">odpowiedź z 28.02.2024</a>
+          <span class="excerpt">„A czy w polifcie z 2013 r. będę mógł tym urządzeniem zdalnie uruchomić grzanie / chłodzenie?”</span>
+        </li>
+        
+        <li id="z159" value="159">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254003201568607/?comment_id=3254055511563376&amp;reply_comment_id=3254219331546994" rel="noopener nofollow" target="_blank">odpowiedź z 28.02.2024</a>
+          <span class="excerpt">„tak”</span>
+        </li>
+        
+        <li id="z160" value="160">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3451154338520158/?comment_id=3451490081819917&amp;reply_comment_id=3451536951815230" rel="noopener nofollow" target="_blank">odpowiedź z 22.11.2024</a>
+          <span class="excerpt">„Można jeszcze zamontować OVMS moduł z Lte  shop.openenergymonitor.com/…  Trochę kosztuje, ale Leaf nie musi być podłączony do zasilania i…”</span>
+        </li>
+        
+        <li id="z161" value="161">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3394995294136063/?comment_id=3394999610802298" rel="noopener nofollow" target="_blank">komentarz z 18.09.2024</a>
+          <span class="excerpt">„Ovms mi to umożliwia jak i dowolny poziom soc”</span>
+        </li>
+        
+        <li id="z162" value="162">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/?comment_id=3254206501548277" rel="noopener nofollow" target="_blank">komentarz z 28.02.2024</a>
+          <span class="excerpt">„Czyli modele od 2017r wzwyż będą miały aplikacje bo tak był modem LTE?”</span>
+        </li>
+        
+        <li id="z163" value="163">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/?comment_id=3254045814897679&amp;reply_comment_id=3934085266893727" rel="noopener nofollow" target="_blank">odpowiedź z 15.05.2026</a>
+          <span class="excerpt">„youtube.com/…”</span>
+        </li>
+        
+        <li id="z164" value="164">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/?comment_id=3335358496766410" rel="noopener nofollow" target="_blank">komentarz z 2.07.2024</a>
+          <span class="excerpt">„docs.openvehicles.com/…”</span>
+        </li>
+        
+        <li id="z165" value="165">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/?comment_id=3335358496766410&amp;reply_comment_id=3339474459688147" rel="noopener nofollow" target="_blank">odpowiedź z 8.07.2024</a>
+          <span class="excerpt">„Jeszcze nie, ale trzeba 1 pierwszej kolejności odłączyć moduł Carwingss jest umieszczony za schowkiem pasażera. Jak podłączę i skonfiguruję…”</span>
+        </li>
+        
+        <li id="z166" value="166">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340" rel="noopener nofollow" target="_blank">komentarz z 24.06.2024</a>
+          <span class="excerpt">„Odłączyłeś tcu?? I jak.z.konfiguracja karty sim?? Jak się kablem.polaczysz działa??”</span>
+        </li>
+        
+        <li id="z167" value="167">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340&amp;reply_comment_id=3329969603971966" rel="noopener nofollow" target="_blank">odpowiedź z 25.06.2024</a>
+          <span class="excerpt">„docs.openvehicles.com/… Tu masz instrukcje”</span>
+        </li>
+        
+        <li id="z168" value="168">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/?comment_id=3329612530674340&amp;reply_comment_id=3346142755687984" rel="noopener nofollow" target="_blank">odpowiedź z 18.07.2024</a>
+          <span class="excerpt">„Dobra działa. Okazało się że zamówiłem zły kabel. Do Nissana leafa jest inny. Paweł pytanie. Czy tobie też zaniża zasięg w ovmsie. Na…”</span>
+        </li>
+        
+        <li id="z169" value="169">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/?comment_id=3335358496766410&amp;reply_comment_id=3339561119679481" rel="noopener nofollow" target="_blank">odpowiedź z 8.07.2024</a>
+          <span class="excerpt">„W czasie jazdy nie sprawdzałem. Teraz, w czasie postoju strona pokazuje tylko lokalizację i przebieg. Ale w apce stan baterii jest.”</span>
+        </li>
+        
+        <li id="z170" value="170">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/?comment_id=3335358496766410&amp;reply_comment_id=3426196364349289" rel="noopener nofollow" target="_blank">odpowiedź z 19.10.2024</a>
+          <span class="excerpt">„jeszcze nie udało mi się do końca poustawiać wszystkiego, ale też nie pokazuje mi stanu naładowania baterii, jest tylko napięcie akumulatora”</span>
+        </li>
+        
+        <li id="z171" value="171">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437&amp;reply_comment_id=3871223436513244" rel="noopener nofollow" target="_blank">odpowiedź z 8.03.2026</a>
+          <span class="excerpt">„aze0 2016r, musiałem odpiąć piny komunikacji od TCU żeby działało zdalne odpalanie grzania. Najpierw odpiąłem całą wtyczkę ale wtedy…”</span>
+        </li>
+        
+        <li id="z172" value="172">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3870911506544437&amp;reply_comment_id=3871425076493080" rel="noopener nofollow" target="_blank">odpowiedź z 8.03.2026</a>
+          <span class="excerpt">„naturalnie błędy jakieś się pojawiły, w końcu nie ma odpowiedzi z TCU...”</span>
+        </li>
+        
+        <li id="z173" value="173">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763419847293604" rel="noopener nofollow" target="_blank">komentarz z 10.11.2025</a>
+          <span class="excerpt">„Fajny filmik super, że poświęciłeś na to czas. Jest to najtańsza opcja by przywrócić część przydatnych opcji w Leafie, przetestowałem i co…”</span>
+        </li>
+        
+        <li id="z174" value="174">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763419847293604&amp;reply_comment_id=3765046937130895" rel="noopener nofollow" target="_blank">odpowiedź z 12.11.2025</a>
+          <span class="excerpt">„OpenCarWings mnie osobiście wystarcza (de facto używam tylko ogrzewania zimą, i informacji o tym że ładowanie zakończyło się jeżeli czasami…”</span>
+        </li>
+        
+        <li id="z175" value="175">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763534260615496&amp;reply_comment_id=3814939395474982" rel="noopener nofollow" target="_blank">odpowiedź z 7.01.2026</a>
+          <span class="excerpt">„ale wtedy nie można mieć jednocześnie ovms i leafspy? Ovms to też OBD2?”</span>
+        </li>
+        
+        <li id="z176" value="176">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/?comment_id=3763534260615496&amp;reply_comment_id=3814944502141138" rel="noopener nofollow" target="_blank">odpowiedź z 7.01.2026</a>
+          <span class="excerpt">„ja mam splitee obd i działa i to i to”</span>
+        </li>
+        
+        <li id="z177" value="177">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860533687582219/?comment_id=3860544250914496&amp;reply_comment_id=3860849290883992" rel="noopener nofollow" target="_blank">odpowiedź z 24.02.2026</a>
+          <span class="excerpt">„zdalne grzanie/chłodzenie nie działa dla roczników 2016/2017 w OVMS niestety:(”</span>
+        </li>
+        
+        <li id="z178" value="178">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860533687582219/?comment_id=3860544250914496&amp;reply_comment_id=3862502157385372" rel="noopener nofollow" target="_blank">odpowiedź z 26.02.2026</a>
+          <span class="excerpt">„nie działa? To jakinz niego pożytek? Grzanie to najważniejsza opzja i jedyna potrzebna. Właśnie go rozważam kupienia tylko dla grzania budy…”</span>
+        </li>
+        
+        <li id="z179" value="179">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891619801140274" rel="noopener nofollow" target="_blank">komentarz z 29.03.2026</a>
+          <span class="excerpt">„Polecam ovms - szybki montaż i wszystko działa. Ewentualnie opencarwings - ale to wymaga trochę większych emiejętności.”</span>
+        </li>
+        
+        <li id="z180" value="180">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/?comment_id=3891278814507706&amp;reply_comment_id=3892113924424195" rel="noopener nofollow" target="_blank">odpowiedź z 30.03.2026</a>
+          <span class="excerpt">„to wydaje mi się że tylko OVMS bo ma swoj modem i port kartę SIM. Wbudowany nie działa w Europie.”</span>
+        </li>
+        
+        <li id="z181" value="181">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3225527451082849/?comment_id=3225545471081047&amp;reply_comment_id=3225561387746122" rel="noopener nofollow" target="_blank">odpowiedź z 13.01.2024</a>
+          <span class="excerpt">„nie”</span>
+        </li>
+        
+        <li id="z182" value="182">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3225527451082849/?comment_id=3225545471081047&amp;reply_comment_id=3225576624411265" rel="noopener nofollow" target="_blank">odpowiedź z 13.01.2024</a>
+          <span class="excerpt">„mozna”</span>
+        </li>
+        
+        <li id="z183" value="183">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3225527451082849/?comment_id=3225579737744287&amp;reply_comment_id=3225655127736748" rel="noopener nofollow" target="_blank">odpowiedź z 13.01.2024</a>
+          <span class="excerpt">„openvehicles.com/…”</span>
+        </li>
+        
+        <li id="z184" value="184">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3239481289687465/?comment_id=3239482959687298" rel="noopener nofollow" target="_blank">komentarz z 4.02.2024</a>
+          <span class="excerpt">„Samochód z usa nie będzie działać w europie w tej materii. Zakup OVMS i wtedy zyskasz co potrzebne”</span>
+        </li>
+        
+        <li id="z185" value="185">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3301450096823917/?comment_id=3306260713009522" rel="noopener nofollow" target="_blank">komentarz z 20.05.2024</a>
+          <span class="excerpt">„Tcu przypisane jest do vin, zmiana tego, tak samo jak zmiana navi nie jest w nissanie plug and play”</span>
+        </li>
+        
+        <li id="z186" value="186">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/?comment_id=3979487355686851&amp;reply_comment_id=3979497985685788" rel="noopener nofollow" target="_blank">odpowiedź z 1.07.2026</a>
+          <span class="excerpt">„Od razu dodam, że z tym modułem Lilygo trochę utknąłem. Nie działa najważniejsza dla mnie funkcja - klimatyzacja zdalna i wiele wskazuje na…”</span>
+        </li>
+        
+        <li id="z187" value="187">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/?comment_id=4014841292151457" rel="noopener nofollow" target="_blank">komentarz z 8.08.2026</a>
+          <span class="excerpt">„simppelitcu mam u mnie działa wyśmienicie. Poczytaj na github”</span>
+        </li>
+        
+        <li id="z188" value="188">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/?comment_id=4038943853074534" rel="noopener nofollow" target="_blank">komentarz z 2.09.2026</a>
+          <span class="excerpt">„Pozostaje jeszcze bardzo budżetowe rozwiązanie github.com/…”</span>
+        </li>
+        
+        <li id="z189" value="189">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3943471602621760/?comment_id=3943497342619186&amp;reply_comment_id=3943509995951254" rel="noopener nofollow" target="_blank">odpowiedź z 25.05.2026</a>
+          <span class="excerpt">„Ja obsługuję poprzez github.com/… proste i skuteczne rozwiązanie. Możesz też przez OVMS.”</span>
+        </li>
+        
+        <li id="z190" value="190">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3943471602621760/?comment_id=3943497342619186&amp;reply_comment_id=3943521295950124" rel="noopener nofollow" target="_blank">odpowiedź z 25.05.2026</a>
+          <span class="excerpt">„OVMS tak simppeliTCU działa w ZE1 i w AZE0 z tym, że nie ma odczytu temperatury w kabinie. Wcześniejsze nie mam pojęcia trzeba spróbować.…”</span>
+        </li>
+        
+        <li id="z191" value="191">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3943471602621760/?comment_id=3943497342619186&amp;reply_comment_id=3943970629238524" rel="noopener nofollow" target="_blank">odpowiedź z 25.05.2026</a>
+          <span class="excerpt">„samochód trzeba zmodyfikować. Nie wystarczy samo pobranie i konfiguracja”</span>
+        </li>
+        
+        <li id="z192" value="192">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3888372554798332/?comment_id=3888488298120091" rel="noopener nofollow" target="_blank">komentarz z 26.03.2026</a>
+          <span class="excerpt">„Masz gotowca, po MQTT wyrzuca dane z 🔋. Dodać tylko usypianie HW. BatteryEmulator na githubie.”</span>
+        </li>
+        
+        <li id="z193" value="193">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3888372554798332/?comment_id=3888488298120091&amp;reply_comment_id=3921104388191815" rel="noopener nofollow" target="_blank">odpowiedź z 1.05.2026</a>
+          <span class="excerpt">„github.com/…”</span>
+        </li>
+        
+        <li id="z194" value="194">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877536419215279" rel="noopener nofollow" target="_blank">komentarz z 15.03.2026</a>
+          <span class="excerpt">„Na ten moment W późnych L1 oraz L2 do połowy produkcji (z kartą sd) jedynie OVMS.”</span>
+        </li>
+        
+        <li id="z195" value="195">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877537629215158&amp;reply_comment_id=3877545029214418" rel="noopener nofollow" target="_blank">odpowiedź z 15.03.2026</a>
+          <span class="excerpt">„dla późnych L1 i L2 przed liftem nie działa bo nie ma fizycznej sim.”</span>
+        </li>
+        
+        <li id="z196" value="196">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877538375881750&amp;reply_comment_id=3877545972547657" rel="noopener nofollow" target="_blank">odpowiedź z 15.03.2026</a>
+          <span class="excerpt">„2020 to może mieć już nawigacje bez karty SD i tam będzie działać o ile jest fizycznie zamontowany moduł telematyki - bo o ile wcześniej…”</span>
+        </li>
+        
+        <li id="z197" value="197">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877538375881750&amp;reply_comment_id=3877551605880427" rel="noopener nofollow" target="_blank">odpowiedź z 15.03.2026</a>
+          <span class="excerpt">„wg ogłoszenia to nconnecta z navi bez sd. Więc natywna integracja w ha będzie działać”</span>
+        </li>
+        
+        <li id="z198" value="198">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/?comment_id=3877538375881750&amp;reply_comment_id=3878749322427322" rel="noopener nofollow" target="_blank">odpowiedź z 16.03.2026</a>
+          <span class="excerpt">„od 2020roku jest już duża navi i mam wersję acenta i jak narazie wszystko śmiga. Problem raczej bedzie do 2019 roku na starszej navi na cd.”</span>
+        </li>
+        
+        <li id="z199" value="199">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3814829778819277/?comment_id=3814934292142159" rel="noopener nofollow" target="_blank">komentarz z 7.01.2026</a>
+          <span class="excerpt">„A co z nim nie tak? Ja czytam HA przez integrację z Connectem i jest OK (oczywiście im częściej czytasz tym lepsze wyniki i mniej prądu w…”</span>
+        </li>
+        
+        <li id="z200" value="200">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3884751858493735/?comment_id=3884799951822259" rel="noopener nofollow" target="_blank">komentarz z 22.03.2026</a>
+          <span class="excerpt">„Wydaje sie, ze wylaczenie NissanConnect pomoglo - przez 30min nic sie nie zalaczylo. Teraz niech Nissan sie wytlumaczy co sie u nich…”</span>
+        </li>
+        
+        <li id="z201" value="201">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851153365186918" rel="noopener nofollow" target="_blank">komentarz z 14.02.2026</a>
+          <span class="excerpt">„Ja ma spiete z Home Assistantem. Dzieki temu moge ustawic sobie limit ladowania do 80% za pomoca smart gniazdka, lub wlaczyc ogrzewanie.…”</span>
+        </li>
+        
+        <li id="z202" value="202">
+          <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/?comment_id=3851153365186918&amp;reply_comment_id=3851781425124112" rel="noopener nofollow" target="_blank">odpowiedź z 15.02.2026</a>
+          <span class="excerpt">„[osoba].com/… jako zbior informacji o aucie a smart gniazdko jako element wykonawczy”</span>
+        </li>
+        
+      </ol>
+    </details>
+    
+    
+    <details class="threads">
+      <summary>Wątki, w których zadano to pytanie (58)</summary>
+      <ul>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4062028644099388/" rel="noopener nofollow" target="_blank">25.09.2026</a> — Witam. Czy może ktoś wie gdzie można przelutować slot na kartę SIM w module TCU? <span class="muted">(3 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4033744690261117/" rel="noopener nofollow" target="_blank">12.09.2026</a> — NissanConnect AZE0 30 kWh &#43; ZE1 40 kWh Jest już nowy sposób na przywrócenie dostępu do aplikacji dla LEAFów 30 kWh, 40… <span class="muted">(14 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4046922482276671/" rel="noopener nofollow" target="_blank">10.09.2026</a> — Witam Czy w ZE1 2019r jest jakakolwiek możliwość reaktywowania nissan connect (zdalne sterowanie ładowaniem i klimatem)? <span class="muted">(11 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4042109832757936/" rel="noopener nofollow" target="_blank">5.09.2026</a> — Szukam kogoś ze Śląska, najlepiej okolice Bytomia, kto ogarnie mi (odpłatnie oczywiście) łączność internetową Leaf 2018r <span class="muted">(1 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4038517099783876/" rel="noopener nofollow" target="_blank">1.09.2026</a> — Wygląda na to że temat przywrócenia łączności w nowszych leafach i ENV jest już załatwiony:-) Leafy przed 09/2015 -… <span class="muted">(26 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4025363997765853/" rel="noopener nofollow" target="_blank">19.08.2026</a> — Witam jeszcze raz. Zainstalowałem kartę hologram zgodnie z filmikiem zamieszczonym na grupie, wszystko poszło ok do… <span class="muted">(6 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4024495364519383/" rel="noopener nofollow" target="_blank">18.08.2026</a> — Jaki koszt Wam wyszedł od lipca przy używaniu karty Hologram do carwings? <span class="muted">(21 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4016762145292705/" rel="noopener nofollow" target="_blank">10.08.2026</a> — Opencarwings - czy działa Wam dzisiaj? (już znowu działa) <span class="muted">(14 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/4014549938847259/" rel="noopener nofollow" target="_blank">7.08.2026</a> — Dobry wieczór, czy da się jakoś przywrócić funkcjonalność online Leafa 1? <span class="muted">(20 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3962278110741109/" rel="noopener nofollow" target="_blank">13.06.2026</a> — Mam problem z OpenCarWings. Od stycznia wszystko działało dobrze. Ostatnie dni OCW pobiera lokalizację, pokazuje czy… <span class="muted">(2 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3943471602621760/" rel="noopener nofollow" target="_blank">25.05.2026</a> — Witam. Kupiliśmy nissana leaf tekna 40kwh z 2019 r. I chcielibyśmy go sprawdzić w jakimś warsztacie na południu.… <span class="muted">(38 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3938170129818574/" rel="noopener nofollow" target="_blank">19.05.2026</a> — Hej. ZE0 2015/2016. Nie mogę znaleźć slotu na kartę sim. Za schowkiem siedzi tcu 28275 4da5a, ale miejsca na kartę sim… <span class="muted">(10 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3935379436764310/" rel="noopener nofollow" target="_blank">16.05.2026</a> — Hej, czy komuś została niepotrzebna karta global-1 i chciałby się podzielić? <span class="muted">(3 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3933515693617351/" rel="noopener nofollow" target="_blank">14.05.2026</a> — Czy zna ktoś sposób aby Leaf ZE0 z USA (2013) prawidłowo odczytywał pozycję GPS? Nie chodzi mi o europejskie mapy w… <span class="muted">(5 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3913488182286769/" rel="noopener nofollow" target="_blank">23.04.2026</a> — Czy jest jakaś aplikacja jeszcze do Nissan Leaf 2018 rok która działa? <span class="muted">(7 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3909347199367534/" rel="noopener nofollow" target="_blank">18.04.2026</a> — Moze ktos podpowie z karta hologram <span class="muted">(8 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3891269957841925/" rel="noopener nofollow" target="_blank">29.03.2026</a> — (streszczenie) Koniec aplikacji NissanConnect – co zamiast? (samo zdjęcie) <span class="muted">(39 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3888372554798332/" rel="noopener nofollow" target="_blank">26.03.2026</a> — Robił ktoś integrację leaf ZW0 z HA,myślę nad tym LilyGO T-CAN,zamówiłem go i czekam jak dotrze, mam wersję usa i… <span class="muted">(6 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3882078998761021/" rel="noopener nofollow" target="_blank">20.03.2026</a> — Cześć mam problem jak mam łączyć grzanie na postoju w leaf 1 rok 2015 tekna? Filmik z objaśnieniami problemu poniżej <span class="muted">(8 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3877534382548816/" rel="noopener nofollow" target="_blank">15.03.2026</a> — wyczytałem że nissan wyłacza serwery nissan connect, macie jakieś patenty jak połączyć liścia z Home assistant żeby móc… <span class="muted">(11 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3870901499878771/" rel="noopener nofollow" target="_blank">7.03.2026</a> — Open Vehicle Monitoring System Wszyscy już pewnie wiedzą o kolejnej transzy wyłączeń telemetrii w Nissanach. Pogrom… <span class="muted">(24 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3860533687582219/" rel="noopener nofollow" target="_blank">24.02.2026</a> — Koniec wsparcia dla aplikacji NissanConnect EV od 30 marca 2026 r. Szanowny Kliencie, Szanowna Klientko, chcemy Cię… <span class="muted">(58 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3851059598529628/" rel="noopener nofollow" target="_blank">14.02.2026</a> — Chciałby się podzielić aplikacja do opencarwings na androida, która dostałem do [osoba] działa jest fajna i… <span class="muted">(32 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3843956782573243/" rel="noopener nofollow" target="_blank">7.02.2026</a> — Z sukcesem zakończyło się ustawianie OpenCarwings:) Super sprawa! Gdyby ktoś potrzebował kart Hologram to zapraszam do… <span class="muted">(22 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3830851647217090/" rel="noopener nofollow" target="_blank">25.01.2026</a> — OVMS, czy działa? Witam. Czy ktoś z forumowiczów posiada może OVMS w Leaf 2016r 24kWh? Czy można dzięki temu modułowi… <span class="muted">(2 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3829572990678289/" rel="noopener nofollow" target="_blank">23.01.2026</a> — O co z tym chodzi w Opencarwings? <span class="muted">(5 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3821101354858786/" rel="noopener nofollow" target="_blank">14.01.2026</a> — Edit: rozdysponowane! Karty Hologram do OpenCarwings - 3 sztuki. Mam do odsprzedania trzy karty Hologram do… <span class="muted">(24 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3815811172054471/" rel="noopener nofollow" target="_blank">8.01.2026</a> — Czy OVMS kupię tylko tu: shop.openenergymonitor.com/…, a jeśli tak to spodziewać się cła?</li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3812663472369241/" rel="noopener nofollow" target="_blank">5.01.2026</a> — Hej. Gdyby ktoś używał OpenCARWINGS i chciał sobie spiąć liścia z Home Assistant, to napisałem integrację dostępną w… <span class="muted">(1 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3805872459715009/" rel="noopener nofollow" target="_blank">28.12.2025</a> — Cześć. Zainstalowałem w swoim Leafie ZE0 kartę hologram. Na samym początku lokalizacja pojazdu w aplikacji Opencarwings… <span class="muted">(3 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3796479127321009/" rel="noopener nofollow" target="_blank">17.12.2025</a> — Druga część myślę że warto zobaczyć. Pozdrawiam. <span class="muted">(5 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3796073520694903/" rel="noopener nofollow" target="_blank">17.12.2025</a> — Witam. Mam leafa z 21r ustawiam timer na 20min przed wyjazdem z rana i szału nie ma a ustawiony na 30°. jak grzeją… <span class="muted">(12 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3793604864275102/" rel="noopener nofollow" target="_blank">14.12.2025</a> — Witam polecam obejrzeć materiał jak przywrócić zdalny dostęp do auta Pozdrawiam <span class="muted">(1 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3782954612006794/" rel="noopener nofollow" target="_blank">2.12.2025</a> — Do użytkowników OpenCarwings. Działa Wam dzisiaj? Ja nie mogę nawiązać połączenia <span class="muted">(6 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3766269810341941/" rel="noopener nofollow" target="_blank">13.11.2025</a> — Mam Leafa. Niestety, Amerykanca. Brak map Europy itd. Co mogę zrobić. Pytanie bonusowe: co mogę dodatkowo wycisnąć z… <span class="muted">(28 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3763313430637579/" rel="noopener nofollow" target="_blank">10.11.2025</a> — Wideo-instrukcja wskrzeszenia usług on-line (CarWings) dla Leafów I <span class="muted">(17 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3760254047610184/" rel="noopener nofollow" target="_blank">7.11.2025</a> — Posiadam taki adapter. Działa z LeafSpy, w innych autach też. Nie łączy się aplikacją Nissan Leaf Telematics. Chciałem… <span class="muted">(13 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3752582715043984/" rel="noopener nofollow" target="_blank">30.10.2025</a> — Pytanie o Timer klimatyzacji:) ustawiam w samochodzie timer na godzinę 5 rano bo o tej godzinie kończę prace, temp… <span class="muted">(15 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3751801881788734/" rel="noopener nofollow" target="_blank">29.10.2025</a> — Witam, może ktoś podpowie jak rozwiązać ten problem. Po wymianie akumulatora. <span class="muted">(10 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3731178627184393/" rel="noopener nofollow" target="_blank">9.10.2025</a> — Oświetlenie schowka naprawione, po prostu trzeba było wymienić żarówkę. Zrobiłem przy okazji montowania karty sim do… <span class="muted">(5 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3703272219975034/" rel="noopener nofollow" target="_blank">11.09.2025</a> — Piszę tutaj bo na grupowym czacie umknie, a to moim zdaniem mały game changer dla użytkowników Leafów z systemem… <span class="muted">(140 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3695237340778522/" rel="noopener nofollow" target="_blank">2.09.2025</a> — OpenCarWings dla Leafów z wyłączonym CarWings - jest rozszerzona funkcjonalność. Obecnie można także przeglądać… <span class="muted">(13 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3686823141619942/" rel="noopener nofollow" target="_blank">24.08.2025</a> — Włączy to Nissana zdalnie?;) np ogrzewanie? <span class="muted">(2 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3676194226016167/" rel="noopener nofollow" target="_blank">13.08.2025</a> — Witam. Czy żaden Nissan Leaf ZE0 nie ma podgladu zdalnego na baterię i możliwości ustawienia zdalnie temp? Bo dostalem… <span class="muted">(24 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3587445554891035/" rel="noopener nofollow" target="_blank">3.05.2025</a> — Witam serdecznie Jestem od niedawna posiadaczem Leafa II i używam aplikacji Nissan Connect Service jak widać i mam… <span class="muted">(4 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3493210357647889/" rel="noopener nofollow" target="_blank">18.01.2025</a> — Mam Acentę 2023 40KWh, bez aplikacji.. czy jest jakaś szansa aby coś zamontować i chociaż wiedzieć jaki jest stan… <span class="muted">(5 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3460374820931443/" rel="noopener nofollow" target="_blank">4.12.2024</a> — Timer ogrzewania - czy da się oszukać auto? ❄️🌡️ Pytanko - w Leafie 30 nie mam już wsparcia dla aplikacji więc nie mogę… <span class="muted">(28 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3334225680213025/" rel="noopener nofollow" target="_blank">1.07.2024</a> — OVMS Jak można zresetować do ustawień fabrycznych? <span class="muted">(9 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3329576627344597/" rel="noopener nofollow" target="_blank">24.06.2024</a> — Czy ktoś konfigurował OVMS ostatnio? Nie mogę sobie z tym poradzic. Niby wszystkie dane, loginy hasła wprowadzone a nie… <span class="muted">(17 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3301450096823917/" rel="noopener nofollow" target="_blank">13.05.2024</a> — Jak wiadomo od 1 kwietnia nie działa Nissan connect w modelach przed 2016r. Czy podmiana TCU z modelu po 2016r… <span class="muted">(2 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3274068242895436/" rel="noopener nofollow" target="_blank">1.04.2024</a> — Nissan bardzo dba o swoich klientów. 🙄 <span class="muted">(31 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3256944227941171/" rel="noopener nofollow" target="_blank">4.03.2024</a> — bbc.co.uk/… <span class="muted">(1 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254003201568607/" rel="noopener nofollow" target="_blank">28.02.2024</a> — No to pięknie. Nissan wyłącza Nissan Connect dla Leaf 1 i eNV200 (do 2016) ze względu na zastosowana technologie 2G i… <span class="muted">(24 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3254015591567368/" rel="noopener nofollow" target="_blank">28.02.2024</a> — Oj. Znika bardzo fajna usługa w Leafie. Dla mnie stała się ona już niezbędną. Jak żyć od 1.04.24? <span class="muted">(18 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3239481289687465/" rel="noopener nofollow" target="_blank">4.02.2024</a> — Witam. Czy w nissan leaf I potrzebny jest kod do radia żeby można było sterować ogrzewaniem i nawiewami? Wszystkie… <span class="muted">(8 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3225527451082849/" rel="noopener nofollow" target="_blank">13.01.2024</a> — Aplikacja do Leafa. Używam NissanConnect ale okazało się że działa mi autko z My Leaf. Jest tam kilka rzeczy więcej. A… <span class="muted">(21 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3222910128011248/" rel="noopener nofollow" target="_blank">9.01.2024</a> — Z jakimi dziś temperaturami wasze Leafki sobie radziły? Na moim Leafie -21 nie robi wrażenia. <span class="muted">(58 kom.)</span></li>
+        
+        <li><a href="https://www.facebook.com/groups/Nissan.LEAF.Polska/posts/3218562685112659/" rel="noopener nofollow" target="_blank">1.01.2024</a> — Co robić w pierwszym dniu roku? Pogrzebać w FrankEVstein Dodano ovms:). <span class="muted">(17 kom.)</span></li>
+        
+      </ul>
+    </details>
+    
+  </section>
+
+  
+  
+  
+  
+  
+  <nav class="pager" aria-label="Sąsiednie pytania">
+    <a class="prev" href="/a2/"><span class="qid">a2</span> Aplikacja NissanConnect / MyNISSAN nie działa – co robić?</a>
+    <a class="next" href="/a4/"><span class="qid">a4</span> Radio, nawigacja, Android Auto, kamera i polskie menu</a>
+  </nav>
+  
+</article>
+
+<nav class="catnav" aria-label="Pytania w kategorii Aplikacje i elektronika">
+  <p class="toc-title"><a href="/kategorie/aplikacje-i-elektronika/">Aplikacje i elektronika</a></p>
+  <ol>
+    
+    <li><a href="/a1/"><span class="qid">a1</span><span class="qt">LeafSpy: jaki interfejs OBD kupić i od czego zacząć?</span></a></li>
+    
+    <li><a href="/a2/"><span class="qid">a2</span><span class="qt">Aplikacja NissanConnect / MyNISSAN nie działa – co robić?</span></a></li>
+    
+    <li><a href="/a3/" class="active" aria-current="page"><span class="qid">a3</span><span class="qt">Jak przywrócić zdalne sterowanie (OpenCARWINGS, OVMS)?</span></a></li>
+    
+    <li><a href="/a4/"><span class="qid">a4</span><span class="qt">Radio, nawigacja, Android Auto, kamera i polskie menu</span></a></li>
+    
+    <li><a href="/a5/"><span class="qid">a5</span><span class="qt">Gdzie znaleźć instrukcję obsługi Leafa po polsku?</span></a></li>
+    
+    <li><a href="/a6/"><span class="qid">a6</span><span class="qt">Po zmianie czasu zegar się nie zgadza, a timery ładowania i ogrzewania nie działają – co zrobić?</span><span class="gens"><span class="gen gen-1">Leaf I</span></span></a></li>
+    
+  </ol>
+</nav>
+
+<nav class="toc" aria-label="Spis sekcji">
+  <p class="toc-title">W tej odpowiedzi</p>
+  <ol></ol>
+</nav>
+</div>
+
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Nieoficjalne FAQ opracowane na podstawie dyskusji w grupie
+        <a href="https://www.facebook.com/groups/Nissan.LEAF.Polska">Nissan LEAF Polska</a>
+        (wątki z okresu 1.01.2024 – 16.10.2026).
+        Odpowiedzi to synteza doświadczeń członków grupy — nie zastępują porady serwisu.</p>
+      <p>Krótki adres każdego pytania: <code>/&lt;ID&gt;/</code>, np. <a href="/z1/">/z1/</a> – Jak sprawdzić baterię Leafa przed zakupem?</p>
+    </div>
+  </footer>
+  <script src="/js/site.js" defer></script>
+</body>
+</html>

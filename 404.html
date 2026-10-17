@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Nie znaleziono · Nissan LEAF Polska – FAQ</title>
+  <script>
+    
+    (function () {
+      var base = "/";
+      var ids = ["b1","s1","z1","j1","a1","i1","u1","l1","a2","s2","i2","j2","b2","l2","z2","u2","s3","u3","b3","j3","a3","z3","l3","i3","u4","i4","z4","j4","s4","l4","b4","a4","l5","s5","a5","u5","z5","j5","b5","z6","u6","a6","j6","l6","b6","z7","u7","b7","l7","j7","l8","b8","u8","l9","u9","b9","ua"];
+      var path = location.pathname;
+      if (path.indexOf(base) === 0) path = path.slice(base.length);
+      var m = path.match(/^([A-Za-z0-9]{2})\/?(?:index\.html)?$/);
+      if (m && ids.indexOf(m[1].toLowerCase()) >= 0) location.replace(base + m[1].toLowerCase() + '/');
+      window.__faqBase = base;
+    })();
+  </script>
+  <style>
+    :root { --bg: #f7f8f6; --fg: #1d2421; --muted: #56605b; --accent: #0b6e8a; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #121614; --fg: #e6ebe8; --muted: #a3ada8; --accent: #5cc0dc; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; }
+    main { max-width: 36rem; margin: 15vh auto; padding: 0 16px; }
+    h1 { font-size: 1.6rem; margin: 0 0 .5rem; }
+    p { color: var(--muted); }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Nie ma takiej strony</h1>
+    <p>Sprawdź identyfikator pytania (dwa znaki, np. <code>z1</code>) albo przejdź do <a id="home" href="#">spisu pytań</a> i skorzystaj z wyszukiwarki.</p>
+  </main>
+  <script>document.getElementById('home').href = window.__faqBase || '/';</script>
+</body>
+</html>
